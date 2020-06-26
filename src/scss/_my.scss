@@ -360,8 +360,7 @@ a.all-menu{
   width: calc(100% / 3 - 1rem);
   margin: 0.5rem;
   padding: 1rem;
-  border: 0;
-  box-shadow: inset 0 0 0 1px $mainColor;
+  border: 1px solid $mainColor;
 }
 
 #jstore-css #lsp-block-content .lsp-js-block-items .lsp-block-item:hover{
@@ -375,7 +374,8 @@ a.all-menu{
 #jstore-css .lsp-block-items-list .lsp-block-item-image{
   order: 1;
   align-self: center;
-  width: 100%;
+  width: calc(100% + 2rem);
+  transform: translate(0rem, -1rem);
   .lsp-block-item-image-link{
     width: 100%;
     display: flex;
