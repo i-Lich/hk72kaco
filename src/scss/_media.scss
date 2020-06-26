@@ -89,6 +89,7 @@
       margin: 1rem 0;
       width: 100%;
       padding: 9px;
+      border: 1px solid $mainColor;
     }
   }
   #jstore-css .content-right-side {
@@ -174,6 +175,7 @@
           font-size: 18px;
           font-style: normal;
           padding: 10px;
+          border: 1px solid $mainColor;
         }
         #lsp-block-recommendation{
           .lsp-js-recommendation-items{
@@ -235,7 +237,9 @@
     .cart-more,
     .cart-to-order {
       display: flex;
-      color: #fff;
+      color: $textColor;
+      background-color: $thirdColor;
+      border: 1px solid $mainColor;
       span{
         padding: 0 0 0 0;
 
