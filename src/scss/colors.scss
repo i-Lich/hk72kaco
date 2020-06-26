@@ -6,6 +6,7 @@
 .jstore-tag.lsp-button {
   background: $mainColor;
   color: $textColor;
+  font-weight: normal;
   //padding: 11px 20px;
   border-radius: 5px;
 }
@@ -16,6 +17,7 @@
 .jstore-tag.lsp-button-minus,
 .jstore-tag.lsp-button-cross {
   background: $mainColor;
+  font-weight: normal;
   color: $textColor;
 }
 .jstore-tag.lsp-button-plus.jstore-out-of-stock {
@@ -54,7 +56,7 @@
   color: $textColor
 }
 .jstore-tag.lsp-block-cart .lsp-info-message .jstore-tag{
-  color: $textColor;
+  color: $whiteColor;
 }
 .jstore-tag.lsp-block-cart .lsp-block-cart-total,
 .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
@@ -85,6 +87,7 @@
 }
 .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag{
   color: $textColor;
+  font-weight: normal;
 }
 #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
 .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,

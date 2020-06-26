@@ -76,7 +76,10 @@
   }
 
   #jstore-css {
-    flex-direction: column;
+    .jstore-container{
+      flex-direction: column;
+    }
+
     a.all-menu {
       text-transform: none;
       font-size: 18px;

@@ -10,16 +10,20 @@ html{
 
 body{
   margin: 0;
+  header#header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    background-color: $thirdColor;
+    .jstore-container{
+      margin: 10px auto;
+      }
+  }
 }
 
 img{
   max-width: 100%;
-}
-
-.container{
-  display: flex;
-  max-width: 1920px;
-  margin: 0 auto;
 }
 
 ul,
@@ -34,11 +38,13 @@ a{
   text-decoration: none;
 }
 
-#jstore-css {
-  display: flex;
-  margin: 50px auto;
-  max-width: 1280px;
-  padding: 0 1rem;
+
+  .jstore-container{
+    display: flex;
+    margin: 100px auto 20px;
+    max-width: 1280px;
+    padding: 0 1rem;
+  }
   .lsp-block-items-list{
     .jstore-tag {
       &.h1 {
@@ -50,33 +56,33 @@ a{
     }
   }
 
-}
 
 @media (max-width: 1200px) {
-  #jstore-css {
+  .jstore-container {
     max-width: 1170px;
   }
 }
 
-@media (max-width: 992px) {
-  #jstore-css {
-    max-width: 970px;
-  }
-}
-@media (max-width: 768px) {
-  #jstore-css {
-    max-width: 750px;
-  }
-}
 
-#jstore-css #lsp-block-content #lsp-block-order-form .lsp-form .lsp-js-submit,
-#jstore-css #lsp-block-content .jstore-tag.lsp-button,
-#jstore-css .jstore-tag.lsp-button-plus,
-#jstore-css .jstore-tag.lsp-button-minus,
-#jstore-css .jstore-tag.lsp-button-cross,
-.jstore-tag.lsp-button-minus:hover, .jstore-tag.lsp-button-plus:hover, .jstore-tag.lsp-button:hover{
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+  @media (max-width: 992px) {
+    .jstore-container {
+      max-width: 970px;
+    }
+  }
+  @media (max-width: 768px) {
+    .jstore-container {
+      max-width: 750px;
+    }
+  }
+
+  #jstore-css #lsp-block-content #lsp-block-order-form .lsp-form .lsp-js-submit,
+  #jstore-css #lsp-block-content .jstore-tag.lsp-button,
+  #jstore-css .jstore-tag.lsp-button-plus,
+  #jstore-css .jstore-tag.lsp-button-minus,
+  #jstore-css .jstore-tag.lsp-button-cross,
+  .jstore-tag.lsp-button-minus:hover, .jstore-tag.lsp-button-plus:hover, .jstore-tag.lsp-button:hover {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }

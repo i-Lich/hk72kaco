@@ -153,9 +153,14 @@
 }
 
 ul.jstore-header-fixed-dropdown{
-  margin-left: auto;
+  //margin-left: auto;
   display: flex;
   align-items: center;
+  .fixed-cart{
+    button{
+      padding: 15px;
+    }
+  }
 }
 
 ul.jstore-header-fixed-dropdown li{
@@ -178,8 +183,8 @@ ul.jstore-header-fixed-dropdown li span{
 }
 
 .jstore-header-fixed-dropdown div.amount-goods .jstore-js-cart-total-count{
-  font-size: 14px;
-  margin-left: 8px;
+  font-size: 18px;
+  margin-left: 3px;
 }
 
 .jstore-header-fixed-dropdown div.amount-goods #cart-fixed .lsp-cart-items-list,
@@ -216,6 +221,7 @@ ul.jstore-header-fixed-dropdown li span{
   display: flex;
   align-items: center;
   min-height: 34px;
+  padding: 17px;
 }
 
 .jstore-header-fixed-dropdown .jstore-block-search,
@@ -239,7 +245,7 @@ ul.jstore-header-fixed-dropdown li span{
   background-color: $whiteColor;
   height: auto;
   right: 0;
-  top: 48px;
+  top: 62px;
   z-index: 2;
   overflow-y: auto;
 }

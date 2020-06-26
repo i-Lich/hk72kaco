@@ -101,40 +101,76 @@ body.custom-background { background-color: #ffffff; }
 
 <body class="home page-template page-template-elementor_canvas page page-id-7 custom-background wp-embed-responsive singular missing-post-thumbnail has-no-pagination not-showing-comments show-avatars elementor_canvas footer-top-visible elementor-default elementor-template-canvas elementor-kit-9 elementor-page elementor-page-7">
 
-	<div id="jstore-css">
+<header id="header" class="header">
+	<div class="jstore-container">
+		<!-- Header Navigation Left -->
+		<a href="#" class="logo">
+			<img src="build/img/logo.png" alt="">
+		</a>
+		<ul class="jstore-header-fixed-dropdown">
+			<li class="fixed-search">
+				<div class="icon-search"><button class="btn btn-default"><i class="fas fa-search" aria-hidden="true"></i></button></div>
+				<div class="jstore-tag jstore-block-search"></div>
+			</li>
+			<li class="fixed-signin">
+				<div class="icon-signin"><button class="btn btn-default"><i class="fas fa-user" aria-hidden="true"></i></button></div>
+				<div id="lsp-block-userinfo" class="lsp-block-userinfo"></div>
+			</li>
+			<li class="fixed-cart">
+				<button class="btn btn-default btn-lsp-header-cart">
+					<div class="icon-cart">
+						<i class="fas fa-shopping-cart" aria-hidden="true"></i>
+					</div>
+					<div class="amount-goods">
+						<div id="cart-fixed" class="lsp-block-cart" data-page="cart">
+							<span class="jstore-tag lsp-block-cart-total jstore-js-cart-total-count" >0</span>
+						</div>
+					</div>
+				</button>
+				<div id ="lsp-header-cart" class="lsp-block-cart dropdown-cart"></div>
 
-		<div class="content-left-side">
-			<div class="jstore-tag jstore-block-search"></div>
-			<div id="lsp-block-restinfo" class="lsp-block-restinfo"></div>
-			<div class="lsp-block-terminalinfo jstore-block jstore-tag"></div>
-			<div id="lsp-block-userinfo" class="lsp-block-userinfo"></div>
-			<div class="nav-menu">
-				<a class="all-menu" href="#/">Все меню </a>
-				<span class="menu-more"><span class="arrow"><i class="arrow fas fa-caret-down"></i></span></span>
-				<div id="lsp-block-tree" class="lsp-block-menu-tree"></div>
+			</li>
+
+		</ul>
+	</div>
+	<!-- END Header Navigation Left -->
+</header>
+
+	<div id="jstore-css">
+		<div class="jstore-container">
+			<div class="content-left-side">
+				<div class="jstore-tag jstore-block-search"></div>
+				<div id="lsp-block-restinfo" class="lsp-block-restinfo"></div>
+				<div class="lsp-block-terminalinfo jstore-block jstore-tag"></div>
+				<div id="lsp-block-userinfo" class="lsp-block-userinfo"></div>
+				<div class="nav-menu">
+					<a class="all-menu" href="#/">Все меню </a>
+					<span class="menu-more"><span class="arrow"><i class="arrow fas fa-caret-down"></i></span></span>
+					<div id="lsp-block-tree" class="lsp-block-menu-tree"></div>
+				</div>
+				<div class="lsp-block-cart-wrapper">
+					<div id="lsp-block-cart" class="lsp-block-cart"></div>
+					<span class="cart-more"><span class="arrow"><i class="arrow fas fa-caret-down"></i></span></span>
+					<a href="#!/order" class="cart-to-order">ОформиТь</a>
+				</div>
+				<div class="lsp-block-gift-wrapper">
+					<div id="lsp-block-gift" class="lsp-block-gift"></div>
+					<span class="lsp-block-gift-more"><span class="arrow"><i class="fas fa-caret-down"></i></span></span>
+				</div>
+				<div class="lsp-block-happy-hour-wrapper">
+					<div id="lsp-block-happy-hour"
+						 class="lsp-block-happy-hour"></div>
+					<span class="happy-hour-more"><span class="arrow"><i class="fas fa-caret-down"></i></span></span>
+				</div>
+				<div class="lsp-block-recommendation-wrapper">
+					<div id="lsp-block-recommendation" class="lsp-block-recommendation"></div>
+					<span class="recommendation-more"><span class="arrow"><i class="fas fa-caret-down"></i></span></span>
+				</div>
 			</div>
-			<div class="lsp-block-cart-wrapper">
-				<div id="lsp-block-cart" class="lsp-block-cart"></div>
-				<span class="cart-more"><span class="arrow"><i class="arrow fas fa-caret-down"></i></span></span>
-				<a href="#!/order" class="cart-to-order">ОформиТь</a>
-			</div>
-			<div class="lsp-block-gift-wrapper">
-				<div id="lsp-block-gift" class="lsp-block-gift"></div>
-				<span class="lsp-block-gift-more"><span class="arrow"><i class="fas fa-caret-down"></i></span></span>
-			</div>
-			<div class="lsp-block-happy-hour-wrapper">
-				<div id="lsp-block-happy-hour"
-					 class="lsp-block-happy-hour"></div>
-				<span class="happy-hour-more"><span class="arrow"><i class="fas fa-caret-down"></i></span></span>
-			</div>
-			<div class="lsp-block-recommendation-wrapper">
-				<div id="lsp-block-recommendation" class="lsp-block-recommendation"></div>
-				<span class="recommendation-more"><span class="arrow"><i class="fas fa-caret-down"></i></span></span>
-			</div>
-		</div>
-		<div class="content-right-side">
-			<div id="lsp-block-content">
-				<div class="lsp-block-content---preloadler">Список блюд сейчас загрузится...</div>
+			<div class="content-right-side">
+				<div id="lsp-block-content">
+					<div class="lsp-block-content---preloadler">Список блюд сейчас загрузится...</div>
+				</div>
 			</div>
 		</div>
 	</div>
