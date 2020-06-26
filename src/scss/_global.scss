@@ -36,6 +36,26 @@ a{
 
 #jstore-css{
   display: flex;
+  margin: 50px auto;
+  max-width: 1280px;
+  padding: 0 1rem;
+}
+
+@media (max-width: 1200px) {
+  #jstore-css {
+    max-width: 1170px;
+  }
+}
+
+@media (max-width: 992px) {
+  #jstore-css {
+    max-width: 970px;
+  }
+}
+@media (max-width: 768px) {
+  #jstore-css {
+    max-width: 750px;
+  }
 }
 
 #jstore-css #lsp-block-content #lsp-block-order-form .lsp-form .lsp-js-submit,

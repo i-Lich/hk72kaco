@@ -1,2699 +1,439 @@
-body .nav-menu a.all-menu:hover {
-  color: #88bd56; }
+.jstore-tag {
+  color: #333;
+  background: transparent; }
 
-body .jstore-tag {
-  color: #333333; }
+.jstore-tag.lsp-button {
+  background: #fecd06;
+  color: #333;
+  border-radius: 5px; }
 
-body .jstore-tag.lsp-button {
-  background: #88bd56;
-  color: #ffffff; }
+.jstore-tag.lsp-button.jstore-out-of-stock {
+  background: #595959; }
 
-body #jstore-css .jstore-tag.lsp-button.jstore-out-of-stock {
-  background-color: #88bd56; }
+.jstore-tag.lsp-button-plus,
+.jstore-tag.lsp-button-minus,
+.jstore-tag.lsp-button-cross {
+  background: #fecd06;
+  color: #333; }
 
-body .jstore-tag.lsp-button-plus,
-body .jstore-tag.lsp-button-minus,
-body .jstore-tag.lsp-button-cross {
-  background: #88bd56;
-  color: #ffffff; }
+.jstore-tag.lsp-button-plus.jstore-out-of-stock {
+  background: #595959; }
 
-body #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross,
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross {
+#lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross,
+.jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross {
   color: #ffffff;
   background: #cf3734; }
 
-body .jstore-tag.lsp-help-info {
+.jstore-tag.lsp-help-info {
   color: #cf3734; }
 
-body .jstore-tag.lsp-button-plus:hover,
-body .jstore-tag.lsp-button-minus:hover,
-body .jstore-tag.lsp-button:hover {
-  background: #6fa23f; }
+.jstore-tag.lsp-button-plus:hover,
+.jstore-tag.lsp-button-minus:hover,
+.jstore-tag.lsp-button:hover {
+  background: #ededed;
+  color: #333;
+  -webkit-transition: .3s;
+  transition: .3s; }
 
-body .jstore-tag.lsp-button-plus.jstore-out-of-stock:hover {
+.jstore-tag.lsp-button-plus.jstore-out-of-stock:hover {
   background: #595959; }
 
-body #lsp-block-userinfo .lsp-block-userinfo-inner,
-body .jstore-tag.lsp-js-user-auth,
-body #lsp-block-gift .lsp-block-gift-inner,
-body .jstore-tag.lsp-block-cart .lsp-block-cart-inner,
-body #lsp-block-happy-hour .lsp-block-hh-inner,
-body #lsp-block-restinfo .lsp-block-restinfo-inner,
-body #jstore-css .lsp-block-restinfo-inner,
-body .jstore-tag.jstore-block-search .jstore-block-search-inner {
-  border-color: #eff6e9; }
+#lsp-block-userinfo .lsp-block-userinfo-inner,
+.jstore-tag.lsp-js-user-auth,
+#lsp-block-gift .lsp-block-gift-inner,
+.jstore-tag.lsp-block-cart .lsp-block-cart-inner,
+#lsp-block-happy-hour .lsp-block-hh-inner,
+#lsp-block-restinfo .lsp-block-restinfo-inner,
+#jstore-css .lsp-block-restinfo-inner,
+.jstore-tag.jstore-block-search .jstore-block-search-inner {
+  border-color: #fecd06; }
 
-body .jstore-tag.lsp-block-cart .lsp-info-message {
+.jstore-tag.lsp-block-cart .lsp-info-message {
   background: transparent;
-  color: #333333; }
+  color: #333; }
 
-body .jstore-tag.lsp-block-cart .lsp-info-message .jstore-tag {
-  color: #333333; }
+.jstore-tag.lsp-block-cart .lsp-info-message .jstore-tag {
+  color: #333; }
 
-body .jstore-tag.lsp-block-cart .lsp-block-cart-total,
-body .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body #lsp-block-order-form .lsp-block-order-sum-item {
-  color: #88bd56; }
+.jstore-tag.lsp-block-cart .lsp-block-cart-total,
+.jstore-tag.lsp-block-cart .lsp-block-cart-sum,
+#lsp-block-order-form .lsp-block-order-sum-item {
+  color: #fecd06; }
 
-body .jstore-tag.lsp-block-cartpage .lsp-block-cart-item-discount,
-body .jstore-tag.lsp-block-cartpage .lsp-block-cart-bonus,
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item-discount,
-body .jstore-tag.lsp-block-cart .lsp-block-cart-bonus {
-  color: #88bd56; }
+.jstore-tag.lsp-block-cartpage .lsp-block-cart-item-discount,
+.jstore-tag.lsp-block-cartpage .lsp-block-cart-bonus,
+.jstore-tag.lsp-block-cart .lsp-block-cart-item-discount,
+.jstore-tag.lsp-block-cart .lsp-block-cart-bonus {
+  color: #fecd06; }
 
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item {
-  border-color: #999999; }
+.jstore-tag.lsp-block-cart .lsp-block-cart-item {
+  border-color: #d9d9d9; }
 
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-count {
-  color: #6fa23f; }
+.jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-count {
+  color: #c6a005; }
 
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-type {
-  color: #6fa23f; }
+.jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-type {
+  color: #c6a005; }
 
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item-amount-c-count {
-  color: #6fa23f; }
+.jstore-tag.lsp-block-cart .lsp-block-cart-item-amount-c-count {
+  color: #c6a005; }
 
-body .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c {
-  background: #88bd56;
+.jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c {
+  background: #fecd06;
   color: #ffffff; }
 
-body .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag {
+.jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag {
   color: #ffffff; }
 
-body #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item.jstore-cart-item-stock-max .jstore-tag.lsp-help-info {
+#lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
+.jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
+.jstore-tag.lsp-block-cart .lsp-block-cart-item.jstore-cart-item-stock-max .jstore-tag.lsp-help-info {
   color: #595959; }
 
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-minus,
-body .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-plus {
+.jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-minus,
+.jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-plus {
   color: #ffffff; }
 
-body .jstore-tag.lsp-block-cart .lsp-block-cart-discount,
-body .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body #lsp-block-order-form .lsp-block-order-sum-item {
-  color: #88bd56; }
+.jstore-tag.lsp-block-cart .lsp-block-cart-discount,
+.jstore-tag.lsp-block-cart .lsp-block-cart-sum,
+#lsp-block-order-form .lsp-block-order-sum-item {
+  color: #fecd06; }
 
-body #lsp-block-items-list .lsp-block-item,
-body #jstore-css .lsp-block-items-list .lsp-block-item {
-  border-color: #eff6e9; }
+#lsp-block-items-list .lsp-block-item,
+#jstore-css .lsp-block-items-list .lsp-block-item {
+  border-color: #fecd06; }
 
-body .jstore-tag.lsp-block-item-tag.lsp-block-item-tag-status-active,
-body .jstore-tag.lsp-block-tags-filter-status-active .lsp-block-tags-filter-item-icon,
-body .jstore-tag.lsp-popup-inner .lsp-block-item-tag {
-  background-color: #88bd56; }
+.jstore-tag.lsp-block-item-tag:hover,
+.jstore-tag.lsp-block-item-tag.lsp-block-item-tag-status-active,
+.jstore-tag.lsp-block-tags-filter-status-active .lsp-block-tags-filter-item-icon,
+.jstore-tag.lsp-block-tags-filter-item:hover .lsp-block-tags-filter-item-icon,
+.jstore-tag.lsp-popup-inner .lsp-block-item-tag {
+  background-color: #fecd06; }
 
-body .jstore-tag.lsp-block-item-tag:hover,
-body .jstore-tag.lsp-block-tags-filter-item:hover .lsp-block-tags-filter-item-icon {
-  background-color: #88bd56; }
+#lsp-block-items-list .lsp-block-item-price-value,
+#jstore-css .lsp-block-items-list .lsp-block-item-price-value {
+  color: #333; }
 
-body #lsp-block-items-list .lsp-block-item-price-value,
-body #jstore-css .lsp-block-items-list .lsp-block-item-price-value {
-  color: #88bd56; }
+#lsp-block-items-list .lsp-block-item-measurement,
+#jstore-css .lsp-block-items-list .lsp-block-item-measurement {
+  color: #333; }
 
-body #lsp-block-items-list .lsp-block-item-measurement,
-body #jstore-css .lsp-block-items-list .lsp-block-item-measurement {
-  color: #88bd56; }
+#lsp-block-popup .lsp-popup-placeholder {
+  background: rgba(0, 0, 0, 0.7); }
 
-body #lsp-block-popup .lsp-popup-placeholder {
-  background: #000;
-  background: rgba(89, 89, 89, 0.5); }
+#lsp-block-popup .lsp-popup-cont {
+  background: #fbfbfb; }
 
-body #lsp-block-popup .lsp-popup-cont {
-  background: #ffffff; }
+#lsp-block-items-popup .lsp-modifiers-container {
+  border-color: #d9d9d9; }
 
-body #lsp-block-items-popup .lsp-modifiers-container {
-  border-color: #999999; }
+#lsp-block-items-popup .lsp-popup-energy-cont {
+  border-color: #d9d9d9; }
 
-body #lsp-block-items-popup .lsp-popup-energy-cont {
-  border-color: #999999; }
+#lsp-block-items-popup .lsp-modifier-summ-value {
+  color: #fecd06; }
 
-body #lsp-block-items-popup .lsp-modifier-summ-value {
-  color: #88bd56; }
+#lsp-block-items-popup .lsp-modifier-summ-type {
+  color: #fecd06; }
 
-body #lsp-block-items-popup .lsp-modifier-summ-type {
-  color: #88bd56; }
-
-body .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button {
+.jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button {
   background: transparent;
-  color: #333333; }
+  color: #333; }
 
-body .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button.lsp-button-red,
-body .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button:hover {
-  background: #88bd56;
+.jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button.lsp-button-red,
+.jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button:hover {
+  background: #fecd06;
   color: #ffffff; }
 
-body #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: #88bd56; }
+#lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
+#lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
+#lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
+#lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
+  color: #fecd06; }
 
-body #lsp-block-items-popup .lsp-modifer-group-error {
+#lsp-block-items-popup .lsp-modifer-group-error {
   color: #f00; }
 
-body #lsp-block-city-change .cityItem,
-body #lsp-block-terminal-change .cityItem {
+#lsp-block-city-change .cityItem,
+#lsp-block-terminal-change .cityItem {
   border-color: transparent; }
 
-body #lsp-block-city-change .cityItem:hover,
-body #lsp-block-terminal-change .cityItem:hover {
+#lsp-block-popup #lsp-block-city-change .cityItem:hover,
+#lsp-block-popup #lsp-block-terminal-change .cityItem:hover {
   color: #ffffff;
-  background-color: #88bd56; }
+  background-color: #fecd06; }
 
-body .jstore-tag.lsp-block-menu-tree li a.child-selected,
-body .jstore-tag.lsp-block-menu-tree li a.selected,
-body .jstore-tag.lsp-block-menu-tree li a:hover {
-  color: #6fa23f; }
+#jstore-css .lsp-block-menu-tree li a:hover,
+#lsp-block-tree-header--burger li a:hover {
+  color: #8e8e8e; }
 
-body #lsp-block-content .lsp-block-orders-list-status,
-body #jstore-css .jstore-block .lsp-block-orders-list-status,
-body .jstore-tag .lsp-block-orders-list-status {
-  color: #88bd56; }
+#jstore-css .lsp-block-menu-tree li a.child-selected,
+#lsp-block-tree-header--burger li a.child-selected,
+#jstore-css .lsp-block-menu-tree li a.selected,
+#lsp-block-tree-header--burger li a.selected {
+  color: #c6a005; }
 
-body #lsp-block-content .lsp-block-orders-list td,
-body #jstore-css .jstore-block .lsp-block-orders-list td,
-body .jstore-tag .lsp-block-orders-list td {
-  border-color: #999999; }
+#lsp-block-content .lsp-block-orders-list-status,
+#jstore-css .jstore-block .lsp-block-orders-list-status,
+.jstore-tag .lsp-block-orders-list-status {
+  color: #fecd06; }
 
-body #lsp-block-content .lsp-block-orders-list tr:last-child td,
-body #jstore-css .jstore-block .lsp-block-orders-list tr:last-child td,
-body .jstore-tag .lsp-block-orders-list tr:last-child td {
+#lsp-block-content .lsp-block-orders-list td,
+#jstore-css .jstore-block .lsp-block-orders-list td,
+.jstore-tag .lsp-block-orders-list td {
+  border-color: #d9d9d9; }
+
+#lsp-block-content .lsp-block-orders-list tr:last-child td,
+#jstore-css .jstore-block .lsp-block-orders-list tr:last-child td,
+.jstore-tag .lsp-block-orders-list tr:last-child td {
   border-color: transparent; }
 
-body #lsp-block-content .lsp-form .label-row-field select,
-body #jstore-css .jstore-block .lsp-form .label-row-field select,
-body #lsp-block-content .lsp-form .label-row-field input[type=text],
-body #jstore-css .jstore-block .lsp-form .label-row-field input[type=text],
-body #lsp-block-content .lsp-form .label-row-field input[type=number],
-body #jstore-css .jstore-block .lsp-form .label-row-field input[type=number],
-body #lsp-block-content .lsp-form .label-row-field input[type=password],
-body #jstore-css .jstore-block .lsp-form .label-row-field input[type=password],
-body #lsp-block-content .lsp-form .label-row-field textarea,
-body #jstore-css .jstore-block .lsp-form .label-row-field textarea,
-body .jstore-tag .lsp-form .label-row-field select,
-body .jstore-tag .lsp-form .label-row-field input[type=text],
-body .jstore-tag .lsp-form .label-row-field input[type=number],
-body .jstore-tag .lsp-form .label-row-field input[type=password],
-body .jstore-tag .lsp-form .label-row-field textarea {
-  border-color: #999999;
+#lsp-block-content .lsp-form .label-row-field select,
+#jstore-css .jstore-block .lsp-form .label-row-field select,
+#lsp-block-content .lsp-form .label-row-field input[type=text],
+#jstore-css .jstore-block .lsp-form .label-row-field input[type=text],
+#lsp-block-content .lsp-form .label-row-field input[type=number],
+#jstore-css .jstore-block .lsp-form .label-row-field input[type=number],
+#lsp-block-content .lsp-form .label-row-field input[type=password],
+#jstore-css .jstore-block .lsp-form .label-row-field input[type=password],
+#lsp-block-content .lsp-form .label-row-field textarea,
+#jstore-css .jstore-block .lsp-form .label-row-field textarea,
+.jstore-tag .lsp-form .label-row-field select,
+.jstore-tag .lsp-form .label-row-field input[type=text],
+.jstore-tag .lsp-form .label-row-field input[type=number],
+.jstore-tag .lsp-form .label-row-field input[type=password],
+.jstore-tag .lsp-form .label-row-field textarea {
+  border-color: #d9d9d9;
   background: #ffffff; }
 
-body #lsp-block-content .lsp-form .lsp-form-success-mess,
-body #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body #lsp-block-content .lsp-form .lsp-form-error-mess,
-body #jstore-css .jstore-block .lsp-form .lsp-form-error-mess,
-body .jstore-tag .lsp-form .lsp-form-success-mess,
-body .jstore-tag .lsp-form .lsp-form-error-mess {
+#lsp-block-content .lsp-form .lsp-form-success-mess,
+#jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
+#lsp-block-content .lsp-form .lsp-form-error-mess,
+#jstore-css .jstore-block .lsp-form .lsp-form-error-mess,
+.jstore-tag .lsp-form .lsp-form-success-mess,
+.jstore-tag .lsp-form .lsp-form-error-mess {
   background: transparent;
   color: #f00; }
 
-body #lsp-block-content .lsp-form .lsp-form-success-mess,
-body #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body .jstore-tag .lsp-form .lsp-form-success-mess {
-  color: #88bd56; }
+#lsp-block-content .lsp-form .lsp-form-success-mess,
+#jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
+.jstore-tag .lsp-form .lsp-form-success-mess {
+  color: #fecd06; }
 
-body #lsp-block-content .lsp-form .send-review-button,
-body #jstore-css .jstore-block .lsp-form .send-review-button,
-body .jstore-tag .lsp-form .send-review-button {
-  background-color: #88bd56;
+#lsp-block-content .lsp-form .send-review-button,
+#jstore-css .jstore-block .lsp-form .send-review-button,
+.jstore-tag .lsp-form .send-review-button {
+  background-color: #fecd06;
   color: #ffffff; }
 
-body #lsp-block-content .lsp-form .send-reg-button,
-body #jstore-css .jstore-block .lsp-form .send-reg-button,
-body .jstore-tag .lsp-form .send-reg-button {
-  border-color: #88bd56;
+#lsp-block-content .lsp-form .send-reg-button,
+#jstore-css .jstore-block .lsp-form .send-reg-button,
+.jstore-tag .lsp-form .send-reg-button {
+  border-color: #fecd06;
   color: #ffffff; }
 
-body #lsp-block-kladr-autocomplete ul {
+#lsp-block-kladr-autocomplete ul {
   border-color: #595959;
   background-color: #ffffff; }
 
-body #lsp-block-kladr-autocomplete li {
-  border-color: #ffffff #ffffff #999999; }
+#lsp-block-kladr-autocomplete li {
+  border-color: #ffffff #ffffff #d9d9d9; }
 
-body #lsp-block-kladr-autocomplete li.active {
-  background-color: #cccccc; }
+#lsp-block-kladr-autocomplete li.active {
+  background-color: #e5e5e5; }
 
-body #lsp-block-kladr-autocomplete ul {
+#lsp-block-kladr-autocomplete ul {
   background: #ffffff;
-  border-color: transparent #999999 #999999 #999999; }
+  border-color: transparent #d9d9d9 #d9d9d9 #d9d9d9; }
 
-body #lsp-block-kladr-autocomplete li {
-  border-color: #999999; }
+#lsp-block-kladr-autocomplete li {
+  border-color: #d9d9d9; }
 
-body #lsp-block-kladr-autocomplete li:hover a,
-body #lsp-block-kladr-autocomplete li a:hover {
-  color: #333333; }
+#lsp-block-kladr-autocomplete li:hover a,
+#lsp-block-kladr-autocomplete li a:hover {
+  color: #333; }
 
-body #lsp-block-kladr-autocomplete li .ac-s {
-  color: #eff6e9; }
+#lsp-block-kladr-autocomplete li .ac-s {
+  color: #fcdf6a; }
 
-body #lsp-block-kladr-autocomplete li .ac-s2 {
-  color: #333333; }
+#lsp-block-kladr-autocomplete li .ac-s2 {
+  color: #333; }
 
-body #lsp-block-kladr-autocomplete li .ac-st {
+#lsp-block-kladr-autocomplete li .ac-st {
   color: #595959; }
 
-body #lsp-block-datetimepicker.xdsoft_datetimepicker {
+#lsp-block-datetimepicker.xdsoft_datetimepicker {
   -webkit-box-shadow: 0 5px 15px -5px #595959;
   box-shadow: 0 5px 15px -5px #595959;
-  background: #ffffff;
+  background: #d9d9d9;
   border-bottom-color: #595959;
-  border-left-color: #999999;
-  border-right-color: #999999;
-  border-top-color: #999999;
-  color: #333333; }
+  border-left-color: #d9d9d9;
+  border-right-color: #d9d9d9;
+  border-top-color: #d9d9d9;
+  color: #333; }
 
-body #lsp-block-datetimepicker.xdsoft_datetimepicker iframe {
+#lsp-block-datetimepicker.xdsoft_datetimepicker iframe {
   background: transparent; }
 
-body #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
+#lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
   background: transparent; }
 
-body #lsp-block-datetimepicker .xdsoft_noselect::selection {
+#lsp-block-datetimepicker .xdsoft_noselect::selection {
   background: transparent; }
 
-body #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
+#lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
   background: transparent; }
 
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
-  border-bottom-color: #cccccc; }
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
+  border-bottom-color: #e5e5e5; }
 
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div {
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div {
   background: #ffffff;
-  border-top-color: #cccccc;
+  border-top-color: #e5e5e5;
   color: #595959; }
 
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label {
-  background-color: #ffffff; }
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label {
+  background-color: #595959; }
 
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select {
-  border-color: #999999;
-  background: #ffffff; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
-  color: #ffffff;
-  background: #6fa23f; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
-  background: #eff6e9;
-  -webkit-box-shadow: #88bd56 0 1px 3px 0 inset;
-  box-shadow: #88bd56 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td,
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #ffffff;
-  border-color: #cccccc;
-  color: #595959; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #cccccc; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
-  color: #eff6e9; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  background: #eff6e9;
-  -webkit-box-shadow: #88bd56 0 1px 3px 0 inset;
-  box-shadow: #88bd56 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td:hover,
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  color: #ffffff !important;
-  background: #6fa23f !important; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  color: #595959; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright {
-  color: #999999 !important; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a {
-  color: #cccccc !important; }
-
-body #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a:hover {
-  color: #595959 !important; }
-
-body #lsp-block-datetimepicker .xdsoft_time_box {
-  border-color: #999999; }
-
-body #lsp-block-datetimepicker .xdsoft_scrollbar > .xdsoft_scroller {
-  background: #999999 !important; }
-
-body #lsp-block-gift .lsp-block-gift-item-name {
-  color: #000; }
-
-body #lsp-block-happy-hour .lsp-block-hh-product-old-price {
-  color: #595959; }
-
-body #lsp-block-happy-hour .lsp-block-hh-product-new-price {
-  color: #88bd56; }
-
-body #lsp-block-happy-hour .lsp-block-hh-product-desc {
-  color: #000; }
-
-body #lsp-block-item-detail .lsp-modifiers-container {
-  border-top-color: #999999; }
-
-body #lsp-block-item-detail .lsp-detail-energy-cont {
-  border-top-color: #999999; }
-
-body #lsp-block-item-detail .lsp-modifier-item {
-  background: transparent; }
-
-body #lsp-block-item-detail .lsp-modifier-amont {
-  color: #cf3734; }
-
-body #lsp-block-item-detail .lsp-modifier-summ-value {
-  color: #cf3734; }
-
-body #lsp-block-item-detail .lsp-modifier-summ-type {
-  color: #88bd56; }
-
-body #lsp-block-item-detail .lsp-detail-price-total-valute,
-body #lsp-block-item-detail .lsp-detail-price-total {
-  color: #88bd56; }
-
-body #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: #88bd56; }
-
-body #lsp-block-item-detail .lsp-modifer-group-error {
-  color: #88bd56; }
-
-body #jstore-css .jstore-slider .lsp-slider-prev {
-  background: #88bd56;
-  color: #ffffff; }
-
-body #jstore-css .jstore-slider .lsp-slider-next {
-  background: #88bd56;
-  color: #ffffff; }
-
-body #lsp-block-content .jstore-order-status-item-content,
-body .jstore-tag .jstore-order-status-item-content {
-  color: #000;
-  border-color: #88bd56; }
-
-body #lsp-block-content .jstore-order-status-active .jstore-order-status-item-content,
-body .jstore-tag .jstore-order-status-active .jstore-order-status-item-content {
-  background: #88bd56;
-  color: #ffffff; }
-
-body #lsp-block-content .jstore-order-status-complete .jstore-order-status-item-content,
-body .jstore-tag .jstore-order-status-complete .jstore-order-status-item-content {
-  border-color: #c9e1b2;
-  background: #eff6e9;
-  color: #ffffff; }
-
-body #lsp-block-items-popup .lsp-popup-price-total-valute,
-body #lsp-block-items-popup .lsp-popup-price-total {
-  color: #88bd56; }
-
-body #lsp-header-cart::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #cccccc; }
-
-body #lsp-header-cart::-webkit-scrollbar {
-  background-color: #cccccc; }
-
-body #lsp-header-cart::-webkit-scrollbar-thumb {
-  background-color: #88bd56; }
-
-body #jstore-css .content-left-side .pick-color {
-  border: 1px solid #eff6e9; }
-
-body #jstore-css .content-left-side .arrow svg {
-  color: #ffffff !important; }
-
-body #jstore-css .content-left-side .nav-menu {
-  border: 1px solid #eff6e9; }
-
-body #jstore-css .content-left-side .menu-more,
-body #jstore-css .content-left-side .recommendation-more,
-body #jstore-css .content-left-side .happy-hour-more,
-body #jstore-css .content-left-side .lsp-block-gift-more,
-body #jstore-css .content-left-side .cart-more,
-body #jstore-css .content-left-side .cart-to-order {
-  color: #ffffff;
-  background-color: #88bd56; }
-
-@media (max-width: 610px) {
-  body #jstore-css .content-left-side .lsp-block-recommendation-wrapper h2.lsp-title {
-    border: 1px solid #eff6e9; } }
-
-body.red .nav-menu a.all-menu:hover {
-  color: #f1281e; }
-
-body.red .jstore-tag {
-  color: #333333; }
-
-body.red .jstore-tag.lsp-button {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red #jstore-css .jstore-tag.lsp-button.jstore-out-of-stock {
-  background-color: #f1281e; }
-
-body.red .jstore-tag.lsp-button-plus,
-body.red .jstore-tag.lsp-button-minus,
-body.red .jstore-tag.lsp-button-cross {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross {
-  color: #ffffff;
-  background: #cf3734; }
-
-body.red .jstore-tag.lsp-help-info {
-  color: #cf3734; }
-
-body.red .jstore-tag.lsp-button-plus:hover,
-body.red .jstore-tag.lsp-button-minus:hover,
-body.red .jstore-tag.lsp-button:hover {
-  background: #9e120a; }
-
-body.red .jstore-tag.lsp-button-plus.jstore-out-of-stock:hover {
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select {
+  border-color: #d9d9d9;
   background: #595959; }
 
-body.red #lsp-block-userinfo .lsp-block-userinfo-inner,
-body.red .jstore-tag.lsp-js-user-auth,
-body.red #lsp-block-gift .lsp-block-gift-inner,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-inner,
-body.red #lsp-block-happy-hour .lsp-block-hh-inner,
-body.red #lsp-block-restinfo .lsp-block-restinfo-inner,
-body.red #jstore-css .lsp-block-restinfo-inner,
-body.red .jstore-tag.jstore-block-search .jstore-block-search-inner {
-  border-color: #fbc8c5; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-info-message {
-  background: transparent;
-  color: #333333; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-info-message .jstore-tag {
-  color: #333333; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-total,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.red #lsp-block-order-form .lsp-block-order-sum-item {
-  color: #f1281e; }
-
-body.red .jstore-tag.lsp-block-cartpage .lsp-block-cart-item-discount,
-body.red .jstore-tag.lsp-block-cartpage .lsp-block-cart-bonus,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item-discount,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-bonus {
-  color: #f1281e; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item {
-  border-color: #999999; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-count {
-  color: #9e120a; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-type {
-  color: #9e120a; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item-amount-c-count {
-  color: #9e120a; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag {
-  color: #ffffff; }
-
-body.red #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.jstore-cart-item-stock-max .jstore-tag.lsp-help-info {
-  color: #595959; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-minus,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-plus {
-  color: #ffffff; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-discount,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.red #lsp-block-order-form .lsp-block-order-sum-item {
-  color: #f1281e; }
-
-body.red #lsp-block-items-list .lsp-block-item,
-body.red #jstore-css .lsp-block-items-list .lsp-block-item {
-  border-color: #fbc8c5; }
-
-body.red .jstore-tag.lsp-block-item-tag.lsp-block-item-tag-status-active,
-body.red .jstore-tag.lsp-block-tags-filter-status-active .lsp-block-tags-filter-item-icon,
-body.red .jstore-tag.lsp-popup-inner .lsp-block-item-tag {
-  background-color: #f1281e; }
-
-body.red .jstore-tag.lsp-block-item-tag:hover,
-body.red .jstore-tag.lsp-block-tags-filter-item:hover .lsp-block-tags-filter-item-icon {
-  background-color: #f1281e; }
-
-body.red #lsp-block-items-list .lsp-block-item-price-value,
-body.red #jstore-css .lsp-block-items-list .lsp-block-item-price-value {
-  color: #f1281e; }
-
-body.red #lsp-block-items-list .lsp-block-item-measurement,
-body.red #jstore-css .lsp-block-items-list .lsp-block-item-measurement {
-  color: #f1281e; }
-
-body.red #lsp-block-popup .lsp-popup-placeholder {
-  background: #000;
-  background: rgba(89, 89, 89, 0.5); }
-
-body.red #lsp-block-popup .lsp-popup-cont {
-  background: #ffffff; }
-
-body.red #lsp-block-items-popup .lsp-modifiers-container {
-  border-color: #999999; }
-
-body.red #lsp-block-items-popup .lsp-popup-energy-cont {
-  border-color: #999999; }
-
-body.red #lsp-block-items-popup .lsp-modifier-summ-value {
-  color: #f1281e; }
-
-body.red #lsp-block-items-popup .lsp-modifier-summ-type {
-  color: #f1281e; }
-
-body.red .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button {
-  background: transparent;
-  color: #333333; }
-
-body.red .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button.lsp-button-red,
-body.red .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button:hover {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.red #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.red #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.red #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: #f1281e; }
-
-body.red #lsp-block-items-popup .lsp-modifer-group-error {
-  color: #f00; }
-
-body.red #lsp-block-city-change .cityItem,
-body.red #lsp-block-terminal-change .cityItem {
-  border-color: transparent; }
-
-body.red #lsp-block-city-change .cityItem:hover,
-body.red #lsp-block-terminal-change .cityItem:hover {
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
   color: #ffffff;
-  background-color: #f1281e; }
+  background: #c6a005; }
 
-body.red .jstore-tag.lsp-block-menu-tree li a.child-selected,
-body.red .jstore-tag.lsp-block-menu-tree li a.selected,
-body.red .jstore-tag.lsp-block-menu-tree li a:hover {
-  color: #9e120a; }
-
-body.red #lsp-block-content .lsp-block-orders-list-status,
-body.red #jstore-css .jstore-block .lsp-block-orders-list-status,
-body.red .jstore-tag .lsp-block-orders-list-status {
-  color: #f1281e; }
-
-body.red #lsp-block-content .lsp-block-orders-list td,
-body.red #jstore-css .jstore-block .lsp-block-orders-list td,
-body.red .jstore-tag .lsp-block-orders-list td {
-  border-color: #999999; }
-
-body.red #lsp-block-content .lsp-block-orders-list tr:last-child td,
-body.red #jstore-css .jstore-block .lsp-block-orders-list tr:last-child td,
-body.red .jstore-tag .lsp-block-orders-list tr:last-child td {
-  border-color: transparent; }
-
-body.red #lsp-block-content .lsp-form .label-row-field select,
-body.red #jstore-css .jstore-block .lsp-form .label-row-field select,
-body.red #lsp-block-content .lsp-form .label-row-field input[type=text],
-body.red #jstore-css .jstore-block .lsp-form .label-row-field input[type=text],
-body.red #lsp-block-content .lsp-form .label-row-field input[type=number],
-body.red #jstore-css .jstore-block .lsp-form .label-row-field input[type=number],
-body.red #lsp-block-content .lsp-form .label-row-field input[type=password],
-body.red #jstore-css .jstore-block .lsp-form .label-row-field input[type=password],
-body.red #lsp-block-content .lsp-form .label-row-field textarea,
-body.red #jstore-css .jstore-block .lsp-form .label-row-field textarea,
-body.red .jstore-tag .lsp-form .label-row-field select,
-body.red .jstore-tag .lsp-form .label-row-field input[type=text],
-body.red .jstore-tag .lsp-form .label-row-field input[type=number],
-body.red .jstore-tag .lsp-form .label-row-field input[type=password],
-body.red .jstore-tag .lsp-form .label-row-field textarea {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.red #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.red #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.red #lsp-block-content .lsp-form .lsp-form-error-mess,
-body.red #jstore-css .jstore-block .lsp-form .lsp-form-error-mess,
-body.red .jstore-tag .lsp-form .lsp-form-success-mess,
-body.red .jstore-tag .lsp-form .lsp-form-error-mess {
-  background: transparent;
-  color: #f00; }
-
-body.red #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.red #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.red .jstore-tag .lsp-form .lsp-form-success-mess {
-  color: #f1281e; }
-
-body.red #lsp-block-content .lsp-form .send-review-button,
-body.red #jstore-css .jstore-block .lsp-form .send-review-button,
-body.red .jstore-tag .lsp-form .send-review-button {
-  background-color: #f1281e;
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
+  background: #fcdf6a;
+  -webkit-box-shadow: #fecd06 0 1px 3px 0 inset;
+  box-shadow: #fecd06 0 1px 3px 0 inset;
   color: #ffffff; }
 
-body.red #lsp-block-content .lsp-form .send-reg-button,
-body.red #jstore-css .jstore-block .lsp-form .send-reg-button,
-body.red .jstore-tag .lsp-form .send-reg-button {
-  border-color: #f1281e;
-  color: #ffffff; }
-
-body.red #lsp-block-kladr-autocomplete ul {
-  border-color: #595959;
-  background-color: #ffffff; }
-
-body.red #lsp-block-kladr-autocomplete li {
-  border-color: #ffffff #ffffff #999999; }
-
-body.red #lsp-block-kladr-autocomplete li.active {
-  background-color: #cccccc; }
-
-body.red #lsp-block-kladr-autocomplete ul {
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td,
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
   background: #ffffff;
-  border-color: transparent #999999 #999999 #999999; }
-
-body.red #lsp-block-kladr-autocomplete li {
-  border-color: #999999; }
-
-body.red #lsp-block-kladr-autocomplete li:hover a,
-body.red #lsp-block-kladr-autocomplete li a:hover {
-  color: #333333; }
-
-body.red #lsp-block-kladr-autocomplete li .ac-s {
-  color: #fbc8c5; }
-
-body.red #lsp-block-kladr-autocomplete li .ac-s2 {
-  color: #333333; }
-
-body.red #lsp-block-kladr-autocomplete li .ac-st {
+  border-color: #e5e5e5;
   color: #595959; }
 
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker {
-  -webkit-box-shadow: 0 5px 15px -5px #595959;
-  box-shadow: 0 5px 15px -5px #595959;
-  background: #ffffff;
-  border-bottom-color: #595959;
-  border-left-color: #999999;
-  border-right-color: #999999;
-  border-top-color: #999999;
-  color: #333333; }
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
+  background: #e5e5e5; }
 
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker iframe {
-  background: transparent; }
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
+  color: #fcdf6a; }
 
-body.red #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.red #lsp-block-datetimepicker .xdsoft_noselect::selection {
-  background: transparent; }
-
-body.red #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
-  border-bottom-color: #cccccc; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div {
-  background: #ffffff;
-  border-top-color: #cccccc;
-  color: #595959; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label {
-  background-color: #ffffff; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
-  color: #ffffff;
-  background: #9e120a; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
-  background: #fbc8c5;
-  -webkit-box-shadow: #f1281e 0 1px 3px 0 inset;
-  box-shadow: #f1281e 0 1px 3px 0 inset;
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  background: #fcdf6a;
+  -webkit-box-shadow: #fecd06 0 1px 3px 0 inset;
+  box-shadow: #fecd06 0 1px 3px 0 inset;
   color: #ffffff; }
 
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td,
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #ffffff;
-  border-color: #cccccc;
-  color: #595959; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #cccccc; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
-  color: #fbc8c5; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  background: #fbc8c5;
-  -webkit-box-shadow: #f1281e 0 1px 3px 0 inset;
-  box-shadow: #f1281e 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td:hover,
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #ffffff !important;
-  background: #9e120a !important; }
+  background: #c6a005 !important; }
 
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
   color: #595959; }
 
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright {
-  color: #999999 !important; }
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright {
+  color: #d9d9d9 !important; }
 
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a {
-  color: #cccccc !important; }
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a {
+  color: #e5e5e5 !important; }
 
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a:hover {
+#lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a:hover {
   color: #595959 !important; }
 
-body.red #lsp-block-datetimepicker .xdsoft_time_box {
-  border-color: #999999; }
+#lsp-block-datetimepicker .xdsoft_time_box {
+  border-color: #d9d9d9; }
 
-body.red #lsp-block-datetimepicker .xdsoft_scrollbar > .xdsoft_scroller {
-  background: #999999 !important; }
+#lsp-block-datetimepicker .xdsoft_scrollbar > .xdsoft_scroller {
+  background: #d9d9d9 !important; }
 
-body.red #lsp-block-gift .lsp-block-gift-item-name {
-  color: #000; }
+#lsp-block-gift .lsp-block-gift-item-name {
+  color: #333;
+  margin-bottom: 5px; }
 
-body.red #lsp-block-happy-hour .lsp-block-hh-product-old-price {
+#lsp-block-happy-hour .lsp-block-hh-product-old-price {
   color: #595959; }
 
-body.red #lsp-block-happy-hour .lsp-block-hh-product-new-price {
-  color: #f1281e; }
+#lsp-block-happy-hour .lsp-block-hh-product-new-price {
+  color: #fecd06; }
 
-body.red #lsp-block-happy-hour .lsp-block-hh-product-desc {
-  color: #000; }
+#lsp-block-happy-hour .lsp-block-hh-product-desc {
+  color: #333; }
 
-body.red #lsp-block-item-detail .lsp-modifiers-container {
-  border-top-color: #999999; }
+#lsp-block-item-detail .lsp-modifiers-container {
+  border-top-color: #d9d9d9; }
 
-body.red #lsp-block-item-detail .lsp-detail-energy-cont {
-  border-top-color: #999999; }
+#lsp-block-item-detail .lsp-detail-energy-cont {
+  border-top-color: #d9d9d9; }
 
-body.red #lsp-block-item-detail .lsp-modifier-item {
+#lsp-block-item-detail .lsp-modifier-item {
   background: transparent; }
 
-body.red #lsp-block-item-detail .lsp-modifier-amont {
+#lsp-block-item-detail .lsp-modifier-amont {
   color: #cf3734; }
 
-body.red #lsp-block-item-detail .lsp-modifier-summ-value {
+#lsp-block-item-detail .lsp-modifier-summ-value {
   color: #cf3734; }
 
-body.red #lsp-block-item-detail .lsp-modifier-summ-type {
-  color: #f1281e; }
+#lsp-block-item-detail .lsp-modifier-summ-type {
+  color: #fecd06; }
 
-body.red #lsp-block-item-detail .lsp-detail-price-total-valute,
-body.red #lsp-block-item-detail .lsp-detail-price-total {
-  color: #f1281e; }
+#lsp-block-item-detail .lsp-detail-price-total-valute,
+#lsp-block-item-detail .lsp-detail-price-total {
+  color: #fecd06; }
 
-body.red #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.red #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.red #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.red #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: #f1281e; }
+#lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
+#lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
+#lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
+#lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
+  color: #fecd06; }
 
-body.red #lsp-block-item-detail .lsp-modifer-group-error {
-  color: #f1281e; }
+#lsp-block-item-detail .lsp-modifer-group-error {
+  color: #fecd06; }
 
-body.red #jstore-css .jstore-slider .lsp-slider-prev {
-  background: #f1281e;
+#jstore-css .jstore-slider .lsp-slider-prev {
+  background: #fecd06;
   color: #ffffff; }
 
-body.red #jstore-css .jstore-slider .lsp-slider-next {
-  background: #f1281e;
+#jstore-css .jstore-slider .lsp-slider-next {
+  background: #fecd06;
   color: #ffffff; }
 
-body.red #lsp-block-content .jstore-order-status-item-content,
-body.red .jstore-tag .jstore-order-status-item-content {
+#lsp-block-content .jstore-order-status-item-content,
+.jstore-tag .jstore-order-status-item-content {
   color: #000;
-  border-color: #f1281e; }
+  border-color: #fecd06; }
 
-body.red #lsp-block-content .jstore-order-status-active .jstore-order-status-item-content,
-body.red .jstore-tag .jstore-order-status-active .jstore-order-status-item-content {
-  background: #f1281e;
+#lsp-block-content .jstore-order-status-active .jstore-order-status-item-content,
+.jstore-tag .jstore-order-status-active .jstore-order-status-item-content {
+  background: #fecd06;
   color: #ffffff; }
 
-body.red #lsp-block-content .jstore-order-status-complete .jstore-order-status-item-content,
-body.red .jstore-tag .jstore-order-status-complete .jstore-order-status-item-content {
-  border-color: #f7847e;
-  background: #fbc8c5;
+#lsp-block-content .jstore-order-status-complete .jstore-order-status-item-content,
+.jstore-tag .jstore-order-status-complete .jstore-order-status-item-content {
+  border-color: #fcd538;
+  background: #fcdf6a;
   color: #ffffff; }
 
-body.red #lsp-block-items-popup .lsp-popup-price-total-valute,
-body.red #lsp-block-items-popup .lsp-popup-price-total {
-  color: #f1281e; }
+#lsp-block-items-popup .lsp-popup-price-total-valute,
+#lsp-block-items-popup .lsp-popup-price-total {
+  color: #fecd06; }
 
-body.red #lsp-header-cart::-webkit-scrollbar-track {
+#lsp-block-cart--drop::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #cccccc; }
+  background-color: #e5e5e5; }
 
-body.red #lsp-header-cart::-webkit-scrollbar {
-  background-color: #cccccc; }
+#lsp-block-cart--drop::-webkit-scrollbar {
+  width: 6px;
+  background-color: #e5e5e5; }
 
-body.red #lsp-header-cart::-webkit-scrollbar-thumb {
-  background-color: #f1281e; }
+#lsp-block-cart--drop::-webkit-scrollbar-thumb {
+  background-color: #fecd06; }
 
-body.red #jstore-css .content-left-side .pick-color {
-  border: 1px solid #fbc8c5; }
-
-body.red #jstore-css .content-left-side .arrow svg {
-  color: #ffffff !important; }
-
-body.red #jstore-css .content-left-side .nav-menu {
-  border: 1px solid #fbc8c5; }
-
-body.red #jstore-css .content-left-side .menu-more,
-body.red #jstore-css .content-left-side .recommendation-more,
-body.red #jstore-css .content-left-side .happy-hour-more,
-body.red #jstore-css .content-left-side .lsp-block-gift-more,
-body.red #jstore-css .content-left-side .cart-more,
-body.red #jstore-css .content-left-side .cart-to-order {
-  color: #ffffff;
-  background-color: #f1281e; }
-
-@media (max-width: 610px) {
-  body.red #jstore-css .content-left-side .lsp-block-recommendation-wrapper h2.lsp-title {
-    border: 1px solid #fbc8c5; } }
-
-body.turquoise .nav-menu a.all-menu:hover {
-  color: #8acab5; }
-
-body.turquoise .jstore-tag {
-  color: #333333; }
-
-body.turquoise .jstore-tag.lsp-button {
-  background: #8acab5;
-  color: #ffffff; }
-
-body.turquoise #jstore-css .jstore-tag.lsp-button.jstore-out-of-stock {
-  background-color: #8acab5; }
-
-body.turquoise .jstore-tag.lsp-button-plus,
-body.turquoise .jstore-tag.lsp-button-minus,
-body.turquoise .jstore-tag.lsp-button-cross {
-  background: #8acab5;
-  color: #ffffff; }
-
-body.turquoise #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross,
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross {
-  color: #ffffff;
-  background: #cf3734; }
-
-body.turquoise .jstore-tag.lsp-help-info {
-  color: #cf3734; }
-
-body.turquoise .jstore-tag.lsp-button-plus:hover,
-body.turquoise .jstore-tag.lsp-button-minus:hover,
-body.turquoise .jstore-tag.lsp-button:hover {
-  background: #528471; }
-
-body.turquoise .jstore-tag.lsp-button-plus.jstore-out-of-stock:hover {
-  background: #595959; }
-
-body.turquoise #lsp-block-userinfo .lsp-block-userinfo-inner,
-body.turquoise .jstore-tag.lsp-js-user-auth,
-body.turquoise #lsp-block-gift .lsp-block-gift-inner,
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-inner,
-body.turquoise #lsp-block-happy-hour .lsp-block-hh-inner,
-body.turquoise #lsp-block-restinfo .lsp-block-restinfo-inner,
-body.turquoise #jstore-css .lsp-block-restinfo-inner,
-body.turquoise .jstore-tag.jstore-block-search .jstore-block-search-inner {
-  border-color: #6CA28F; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-info-message {
-  background: transparent;
-  color: #333333; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-info-message .jstore-tag {
-  color: #333333; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-total,
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.turquoise #lsp-block-order-form .lsp-block-order-sum-item {
-  color: #8acab5; }
-
-body.turquoise .jstore-tag.lsp-block-cartpage .lsp-block-cart-item-discount,
-body.turquoise .jstore-tag.lsp-block-cartpage .lsp-block-cart-bonus,
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item-discount,
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-bonus {
-  color: #8acab5; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item {
-  border-color: #999999; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-count {
-  color: #528471; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-type {
-  color: #528471; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item-amount-c-count {
-  color: #528471; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c {
-  background: #8acab5;
-  color: #ffffff; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag {
-  color: #ffffff; }
-
-body.turquoise #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item.jstore-cart-item-stock-max .jstore-tag.lsp-help-info {
-  color: #595959; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-minus,
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-plus {
-  color: #ffffff; }
-
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-discount,
-body.turquoise .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.turquoise #lsp-block-order-form .lsp-block-order-sum-item {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-items-list .lsp-block-item,
-body.turquoise #jstore-css .lsp-block-items-list .lsp-block-item {
-  border-color: #6CA28F; }
-
-body.turquoise .jstore-tag.lsp-block-item-tag.lsp-block-item-tag-status-active,
-body.turquoise .jstore-tag.lsp-block-tags-filter-status-active .lsp-block-tags-filter-item-icon,
-body.turquoise .jstore-tag.lsp-popup-inner .lsp-block-item-tag {
-  background-color: #8acab5; }
-
-body.turquoise .jstore-tag.lsp-block-item-tag:hover,
-body.turquoise .jstore-tag.lsp-block-tags-filter-item:hover .lsp-block-tags-filter-item-icon {
-  background-color: #8acab5; }
-
-body.turquoise #lsp-block-items-list .lsp-block-item-price-value,
-body.turquoise #jstore-css .lsp-block-items-list .lsp-block-item-price-value {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-items-list .lsp-block-item-measurement,
-body.turquoise #jstore-css .lsp-block-items-list .lsp-block-item-measurement {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-popup .lsp-popup-placeholder {
-  background: #000;
-  background: rgba(89, 89, 89, 0.5); }
-
-body.turquoise #lsp-block-popup .lsp-popup-cont {
-  background: #ffffff; }
-
-body.turquoise #lsp-block-items-popup .lsp-modifiers-container {
-  border-color: #999999; }
-
-body.turquoise #lsp-block-items-popup .lsp-popup-energy-cont {
-  border-color: #999999; }
-
-body.turquoise #lsp-block-items-popup .lsp-modifier-summ-value {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-items-popup .lsp-modifier-summ-type {
-  color: #8acab5; }
-
-body.turquoise .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button {
-  background: transparent;
-  color: #333333; }
-
-body.turquoise .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button.lsp-button-red,
-body.turquoise .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button:hover {
-  background: #8acab5;
-  color: #ffffff; }
-
-body.turquoise #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.turquoise #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.turquoise #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.turquoise #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-items-popup .lsp-modifer-group-error {
-  color: #f00; }
-
-body.turquoise #lsp-block-city-change .cityItem,
-body.turquoise #lsp-block-terminal-change .cityItem {
-  border-color: transparent; }
-
-body.turquoise #lsp-block-city-change .cityItem:hover,
-body.turquoise #lsp-block-terminal-change .cityItem:hover {
-  color: #ffffff;
-  background-color: #8acab5; }
-
-body.turquoise .jstore-tag.lsp-block-menu-tree li a.child-selected,
-body.turquoise .jstore-tag.lsp-block-menu-tree li a.selected,
-body.turquoise .jstore-tag.lsp-block-menu-tree li a:hover {
-  color: #528471; }
-
-body.turquoise #lsp-block-content .lsp-block-orders-list-status,
-body.turquoise #jstore-css .jstore-block .lsp-block-orders-list-status,
-body.turquoise .jstore-tag .lsp-block-orders-list-status {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-content .lsp-block-orders-list td,
-body.turquoise #jstore-css .jstore-block .lsp-block-orders-list td,
-body.turquoise .jstore-tag .lsp-block-orders-list td {
-  border-color: #999999; }
-
-body.turquoise #lsp-block-content .lsp-block-orders-list tr:last-child td,
-body.turquoise #jstore-css .jstore-block .lsp-block-orders-list tr:last-child td,
-body.turquoise .jstore-tag .lsp-block-orders-list tr:last-child td {
-  border-color: transparent; }
-
-body.turquoise #lsp-block-content .lsp-form .label-row-field select,
-body.turquoise #jstore-css .jstore-block .lsp-form .label-row-field select,
-body.turquoise #lsp-block-content .lsp-form .label-row-field input[type=text],
-body.turquoise #jstore-css .jstore-block .lsp-form .label-row-field input[type=text],
-body.turquoise #lsp-block-content .lsp-form .label-row-field input[type=number],
-body.turquoise #jstore-css .jstore-block .lsp-form .label-row-field input[type=number],
-body.turquoise #lsp-block-content .lsp-form .label-row-field input[type=password],
-body.turquoise #jstore-css .jstore-block .lsp-form .label-row-field input[type=password],
-body.turquoise #lsp-block-content .lsp-form .label-row-field textarea,
-body.turquoise #jstore-css .jstore-block .lsp-form .label-row-field textarea,
-body.turquoise .jstore-tag .lsp-form .label-row-field select,
-body.turquoise .jstore-tag .lsp-form .label-row-field input[type=text],
-body.turquoise .jstore-tag .lsp-form .label-row-field input[type=number],
-body.turquoise .jstore-tag .lsp-form .label-row-field input[type=password],
-body.turquoise .jstore-tag .lsp-form .label-row-field textarea {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.turquoise #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.turquoise #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.turquoise #lsp-block-content .lsp-form .lsp-form-error-mess,
-body.turquoise #jstore-css .jstore-block .lsp-form .lsp-form-error-mess,
-body.turquoise .jstore-tag .lsp-form .lsp-form-success-mess,
-body.turquoise .jstore-tag .lsp-form .lsp-form-error-mess {
-  background: transparent;
-  color: #f00; }
-
-body.turquoise #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.turquoise #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.turquoise .jstore-tag .lsp-form .lsp-form-success-mess {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-content .lsp-form .send-review-button,
-body.turquoise #jstore-css .jstore-block .lsp-form .send-review-button,
-body.turquoise .jstore-tag .lsp-form .send-review-button {
-  background-color: #8acab5;
-  color: #ffffff; }
-
-body.turquoise #lsp-block-content .lsp-form .send-reg-button,
-body.turquoise #jstore-css .jstore-block .lsp-form .send-reg-button,
-body.turquoise .jstore-tag .lsp-form .send-reg-button {
-  border-color: #8acab5;
-  color: #ffffff; }
-
-body.turquoise #lsp-block-kladr-autocomplete ul {
-  border-color: #595959;
-  background-color: #ffffff; }
-
-body.turquoise #lsp-block-kladr-autocomplete li {
-  border-color: #ffffff #ffffff #999999; }
-
-body.turquoise #lsp-block-kladr-autocomplete li.active {
-  background-color: #cccccc; }
-
-body.turquoise #lsp-block-kladr-autocomplete ul {
-  background: #ffffff;
-  border-color: transparent #999999 #999999 #999999; }
-
-body.turquoise #lsp-block-kladr-autocomplete li {
-  border-color: #999999; }
-
-body.turquoise #lsp-block-kladr-autocomplete li:hover a,
-body.turquoise #lsp-block-kladr-autocomplete li a:hover {
-  color: #333333; }
-
-body.turquoise #lsp-block-kladr-autocomplete li .ac-s {
-  color: #6CA28F; }
-
-body.turquoise #lsp-block-kladr-autocomplete li .ac-s2 {
-  color: #333333; }
-
-body.turquoise #lsp-block-kladr-autocomplete li .ac-st {
-  color: #595959; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker {
-  -webkit-box-shadow: 0 5px 15px -5px #595959;
-  box-shadow: 0 5px 15px -5px #595959;
-  background: #ffffff;
-  border-bottom-color: #595959;
-  border-left-color: #999999;
-  border-right-color: #999999;
-  border-top-color: #999999;
-  color: #333333; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker iframe {
-  background: transparent; }
-
-body.turquoise #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.turquoise #lsp-block-datetimepicker .xdsoft_noselect::selection {
-  background: transparent; }
-
-body.turquoise #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
-  border-bottom-color: #cccccc; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div {
-  background: #ffffff;
-  border-top-color: #cccccc;
-  color: #595959; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label {
-  background-color: #ffffff; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
-  color: #ffffff;
-  background: #528471; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
-  background: #6CA28F;
-  -webkit-box-shadow: #8acab5 0 1px 3px 0 inset;
-  box-shadow: #8acab5 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td,
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #ffffff;
-  border-color: #cccccc;
-  color: #595959; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #cccccc; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
-  color: #6CA28F; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  background: #6CA28F;
-  -webkit-box-shadow: #8acab5 0 1px 3px 0 inset;
-  box-shadow: #8acab5 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td:hover,
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  color: #ffffff !important;
-  background: #528471 !important; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  color: #595959; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright {
-  color: #999999 !important; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a {
-  color: #cccccc !important; }
-
-body.turquoise #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a:hover {
-  color: #595959 !important; }
-
-body.turquoise #lsp-block-datetimepicker .xdsoft_time_box {
-  border-color: #999999; }
-
-body.turquoise #lsp-block-datetimepicker .xdsoft_scrollbar > .xdsoft_scroller {
-  background: #999999 !important; }
-
-body.turquoise #lsp-block-gift .lsp-block-gift-item-name {
-  color: #000; }
-
-body.turquoise #lsp-block-happy-hour .lsp-block-hh-product-old-price {
-  color: #595959; }
-
-body.turquoise #lsp-block-happy-hour .lsp-block-hh-product-new-price {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-happy-hour .lsp-block-hh-product-desc {
-  color: #000; }
-
-body.turquoise #lsp-block-item-detail .lsp-modifiers-container {
-  border-top-color: #999999; }
-
-body.turquoise #lsp-block-item-detail .lsp-detail-energy-cont {
-  border-top-color: #999999; }
-
-body.turquoise #lsp-block-item-detail .lsp-modifier-item {
-  background: transparent; }
-
-body.turquoise #lsp-block-item-detail .lsp-modifier-amont {
-  color: #cf3734; }
-
-body.turquoise #lsp-block-item-detail .lsp-modifier-summ-value {
-  color: #cf3734; }
-
-body.turquoise #lsp-block-item-detail .lsp-modifier-summ-type {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-item-detail .lsp-detail-price-total-valute,
-body.turquoise #lsp-block-item-detail .lsp-detail-price-total {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.turquoise #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.turquoise #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.turquoise #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: #8acab5; }
-
-body.turquoise #lsp-block-item-detail .lsp-modifer-group-error {
-  color: #8acab5; }
-
-body.turquoise #jstore-css .jstore-slider .lsp-slider-prev {
-  background: #8acab5;
-  color: #ffffff; }
-
-body.turquoise #jstore-css .jstore-slider .lsp-slider-next {
-  background: #8acab5;
-  color: #ffffff; }
-
-body.turquoise #lsp-block-content .jstore-order-status-item-content,
-body.turquoise .jstore-tag .jstore-order-status-item-content {
-  color: #000;
-  border-color: #8acab5; }
-
-body.turquoise #lsp-block-content .jstore-order-status-active .jstore-order-status-item-content,
-body.turquoise .jstore-tag .jstore-order-status-active .jstore-order-status-item-content {
-  background: #8acab5;
-  color: #ffffff; }
-
-body.turquoise #lsp-block-content .jstore-order-status-complete .jstore-order-status-item-content,
-body.turquoise .jstore-tag .jstore-order-status-complete .jstore-order-status-item-content {
-  border-color: #7CB5A2;
-  background: #6CA28F;
-  color: #ffffff; }
-
-body.turquoise #lsp-block-items-popup .lsp-popup-price-total-valute,
-body.turquoise #lsp-block-items-popup .lsp-popup-price-total {
-  color: #8acab5; }
-
-body.turquoise #lsp-header-cart::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #cccccc; }
-
-body.turquoise #lsp-header-cart::-webkit-scrollbar {
-  background-color: #cccccc; }
-
-body.turquoise #lsp-header-cart::-webkit-scrollbar-thumb {
-  background-color: #8acab5; }
-
-body.turquoise #jstore-css .content-left-side .pick-color {
-  border: 1px solid #6CA28F; }
-
-body.turquoise #jstore-css .content-left-side .arrow svg {
-  color: #ffffff !important; }
-
-body.turquoise #jstore-css .content-left-side .nav-menu {
-  border: 1px solid #6CA28F; }
-
-body.turquoise #jstore-css .content-left-side .menu-more,
-body.turquoise #jstore-css .content-left-side .recommendation-more,
-body.turquoise #jstore-css .content-left-side .happy-hour-more,
-body.turquoise #jstore-css .content-left-side .lsp-block-gift-more,
-body.turquoise #jstore-css .content-left-side .cart-more,
-body.turquoise #jstore-css .content-left-side .cart-to-order {
-  color: #ffffff;
-  background-color: #8acab5; }
-
-@media (max-width: 610px) {
-  body.turquoise #jstore-css .content-left-side .lsp-block-recommendation-wrapper h2.lsp-title {
-    border: 1px solid #6CA28F; } }
-
-body.gray .nav-menu a.all-menu:hover {
-  color: gray; }
-
-body.gray .jstore-tag {
-  color: #333333; }
-
-body.gray .jstore-tag.lsp-button {
-  background: gray;
-  color: #ffffff; }
-
-body.gray #jstore-css .jstore-tag.lsp-button.jstore-out-of-stock {
-  background-color: gray; }
-
-body.gray .jstore-tag.lsp-button-plus,
-body.gray .jstore-tag.lsp-button-minus,
-body.gray .jstore-tag.lsp-button-cross {
-  background: gray;
-  color: #ffffff; }
-
-body.gray #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross,
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross {
-  color: #ffffff;
-  background: #cf3734; }
-
-body.gray .jstore-tag.lsp-help-info {
-  color: #cf3734; }
-
-body.gray .jstore-tag.lsp-button-plus:hover,
-body.gray .jstore-tag.lsp-button-minus:hover,
-body.gray .jstore-tag.lsp-button:hover {
-  background: #666666; }
-
-body.gray .jstore-tag.lsp-button-plus.jstore-out-of-stock:hover {
-  background: #595959; }
-
-body.gray #lsp-block-userinfo .lsp-block-userinfo-inner,
-body.gray .jstore-tag.lsp-js-user-auth,
-body.gray #lsp-block-gift .lsp-block-gift-inner,
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-inner,
-body.gray #lsp-block-happy-hour .lsp-block-hh-inner,
-body.gray #lsp-block-restinfo .lsp-block-restinfo-inner,
-body.gray #jstore-css .lsp-block-restinfo-inner,
-body.gray .jstore-tag.jstore-block-search .jstore-block-search-inner {
-  border-color: #cccccc; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-info-message {
-  background: transparent;
-  color: #333333; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-info-message .jstore-tag {
-  color: #333333; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-total,
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.gray #lsp-block-order-form .lsp-block-order-sum-item {
-  color: gray; }
-
-body.gray .jstore-tag.lsp-block-cartpage .lsp-block-cart-item-discount,
-body.gray .jstore-tag.lsp-block-cartpage .lsp-block-cart-bonus,
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item-discount,
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-bonus {
-  color: gray; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item {
-  border-color: #999999; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-count {
-  color: #666666; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-type {
-  color: #666666; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item-amount-c-count {
-  color: #666666; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c {
-  background: gray;
-  color: #ffffff; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag {
-  color: #ffffff; }
-
-body.gray #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item.jstore-cart-item-stock-max .jstore-tag.lsp-help-info {
-  color: #595959; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-minus,
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-plus {
-  color: #ffffff; }
-
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-discount,
-body.gray .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.gray #lsp-block-order-form .lsp-block-order-sum-item {
-  color: gray; }
-
-body.gray #lsp-block-items-list .lsp-block-item,
-body.gray #jstore-css .lsp-block-items-list .lsp-block-item {
-  border-color: #cccccc; }
-
-body.gray .jstore-tag.lsp-block-item-tag.lsp-block-item-tag-status-active,
-body.gray .jstore-tag.lsp-block-tags-filter-status-active .lsp-block-tags-filter-item-icon,
-body.gray .jstore-tag.lsp-popup-inner .lsp-block-item-tag {
-  background-color: gray; }
-
-body.gray .jstore-tag.lsp-block-item-tag:hover,
-body.gray .jstore-tag.lsp-block-tags-filter-item:hover .lsp-block-tags-filter-item-icon {
-  background-color: gray; }
-
-body.gray #lsp-block-items-list .lsp-block-item-price-value,
-body.gray #jstore-css .lsp-block-items-list .lsp-block-item-price-value {
-  color: gray; }
-
-body.gray #lsp-block-items-list .lsp-block-item-measurement,
-body.gray #jstore-css .lsp-block-items-list .lsp-block-item-measurement {
-  color: gray; }
-
-body.gray #lsp-block-popup .lsp-popup-placeholder {
-  background: #000;
-  background: rgba(89, 89, 89, 0.5); }
-
-body.gray #lsp-block-popup .lsp-popup-cont {
-  background: #ffffff; }
-
-body.gray #lsp-block-items-popup .lsp-modifiers-container {
-  border-color: #999999; }
-
-body.gray #lsp-block-items-popup .lsp-popup-energy-cont {
-  border-color: #999999; }
-
-body.gray #lsp-block-items-popup .lsp-modifier-summ-value {
-  color: gray; }
-
-body.gray #lsp-block-items-popup .lsp-modifier-summ-type {
-  color: gray; }
-
-body.gray .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button {
-  background: transparent;
-  color: #333333; }
-
-body.gray .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button.lsp-button-red,
-body.gray .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button:hover {
-  background: gray;
-  color: #ffffff; }
-
-body.gray #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.gray #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.gray #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.gray #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: gray; }
-
-body.gray #lsp-block-items-popup .lsp-modifer-group-error {
-  color: #f00; }
-
-body.gray #lsp-block-city-change .cityItem,
-body.gray #lsp-block-terminal-change .cityItem {
-  border-color: transparent; }
-
-body.gray #lsp-block-city-change .cityItem:hover,
-body.gray #lsp-block-terminal-change .cityItem:hover {
-  color: #ffffff;
-  background-color: gray; }
-
-body.gray .jstore-tag.lsp-block-menu-tree li a.child-selected,
-body.gray .jstore-tag.lsp-block-menu-tree li a.selected,
-body.gray .jstore-tag.lsp-block-menu-tree li a:hover {
-  color: #666666; }
-
-body.gray #lsp-block-content .lsp-block-orders-list-status,
-body.gray #jstore-css .jstore-block .lsp-block-orders-list-status,
-body.gray .jstore-tag .lsp-block-orders-list-status {
-  color: gray; }
-
-body.gray #lsp-block-content .lsp-block-orders-list td,
-body.gray #jstore-css .jstore-block .lsp-block-orders-list td,
-body.gray .jstore-tag .lsp-block-orders-list td {
-  border-color: #999999; }
-
-body.gray #lsp-block-content .lsp-block-orders-list tr:last-child td,
-body.gray #jstore-css .jstore-block .lsp-block-orders-list tr:last-child td,
-body.gray .jstore-tag .lsp-block-orders-list tr:last-child td {
-  border-color: transparent; }
-
-body.gray #lsp-block-content .lsp-form .label-row-field select,
-body.gray #jstore-css .jstore-block .lsp-form .label-row-field select,
-body.gray #lsp-block-content .lsp-form .label-row-field input[type=text],
-body.gray #jstore-css .jstore-block .lsp-form .label-row-field input[type=text],
-body.gray #lsp-block-content .lsp-form .label-row-field input[type=number],
-body.gray #jstore-css .jstore-block .lsp-form .label-row-field input[type=number],
-body.gray #lsp-block-content .lsp-form .label-row-field input[type=password],
-body.gray #jstore-css .jstore-block .lsp-form .label-row-field input[type=password],
-body.gray #lsp-block-content .lsp-form .label-row-field textarea,
-body.gray #jstore-css .jstore-block .lsp-form .label-row-field textarea,
-body.gray .jstore-tag .lsp-form .label-row-field select,
-body.gray .jstore-tag .lsp-form .label-row-field input[type=text],
-body.gray .jstore-tag .lsp-form .label-row-field input[type=number],
-body.gray .jstore-tag .lsp-form .label-row-field input[type=password],
-body.gray .jstore-tag .lsp-form .label-row-field textarea {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.gray #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.gray #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.gray #lsp-block-content .lsp-form .lsp-form-error-mess,
-body.gray #jstore-css .jstore-block .lsp-form .lsp-form-error-mess,
-body.gray .jstore-tag .lsp-form .lsp-form-success-mess,
-body.gray .jstore-tag .lsp-form .lsp-form-error-mess {
-  background: transparent;
-  color: #f00; }
-
-body.gray #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.gray #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.gray .jstore-tag .lsp-form .lsp-form-success-mess {
-  color: gray; }
-
-body.gray #lsp-block-content .lsp-form .send-review-button,
-body.gray #jstore-css .jstore-block .lsp-form .send-review-button,
-body.gray .jstore-tag .lsp-form .send-review-button {
-  background-color: gray;
-  color: #ffffff; }
-
-body.gray #lsp-block-content .lsp-form .send-reg-button,
-body.gray #jstore-css .jstore-block .lsp-form .send-reg-button,
-body.gray .jstore-tag .lsp-form .send-reg-button {
-  border-color: gray;
-  color: #ffffff; }
-
-body.gray #lsp-block-kladr-autocomplete ul {
-  border-color: #595959;
-  background-color: #ffffff; }
-
-body.gray #lsp-block-kladr-autocomplete li {
-  border-color: #ffffff #ffffff #999999; }
-
-body.gray #lsp-block-kladr-autocomplete li.active {
-  background-color: #cccccc; }
-
-body.gray #lsp-block-kladr-autocomplete ul {
-  background: #ffffff;
-  border-color: transparent #999999 #999999 #999999; }
-
-body.gray #lsp-block-kladr-autocomplete li {
-  border-color: #999999; }
-
-body.gray #lsp-block-kladr-autocomplete li:hover a,
-body.gray #lsp-block-kladr-autocomplete li a:hover {
-  color: #333333; }
-
-body.gray #lsp-block-kladr-autocomplete li .ac-s {
-  color: #cccccc; }
-
-body.gray #lsp-block-kladr-autocomplete li .ac-s2 {
-  color: #333333; }
-
-body.gray #lsp-block-kladr-autocomplete li .ac-st {
-  color: #595959; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker {
-  -webkit-box-shadow: 0 5px 15px -5px #595959;
-  box-shadow: 0 5px 15px -5px #595959;
-  background: #ffffff;
-  border-bottom-color: #595959;
-  border-left-color: #999999;
-  border-right-color: #999999;
-  border-top-color: #999999;
-  color: #333333; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker iframe {
-  background: transparent; }
-
-body.gray #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.gray #lsp-block-datetimepicker .xdsoft_noselect::selection {
-  background: transparent; }
-
-body.gray #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
-  border-bottom-color: #cccccc; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div {
-  background: #ffffff;
-  border-top-color: #cccccc;
-  color: #595959; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label {
-  background-color: #ffffff; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
-  color: #ffffff;
-  background: #666666; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
-  background: #cccccc;
-  -webkit-box-shadow: gray 0 1px 3px 0 inset;
-  box-shadow: gray 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td,
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #ffffff;
-  border-color: #cccccc;
-  color: #595959; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #cccccc; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
-  color: #cccccc; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  background: #cccccc;
-  -webkit-box-shadow: gray 0 1px 3px 0 inset;
-  box-shadow: gray 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td:hover,
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  color: #ffffff !important;
-  background: #666666 !important; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  color: #595959; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright {
-  color: #999999 !important; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a {
-  color: #cccccc !important; }
-
-body.gray #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a:hover {
-  color: #595959 !important; }
-
-body.gray #lsp-block-datetimepicker .xdsoft_time_box {
-  border-color: #999999; }
-
-body.gray #lsp-block-datetimepicker .xdsoft_scrollbar > .xdsoft_scroller {
-  background: #999999 !important; }
-
-body.gray #lsp-block-gift .lsp-block-gift-item-name {
-  color: #000; }
-
-body.gray #lsp-block-happy-hour .lsp-block-hh-product-old-price {
-  color: #595959; }
-
-body.gray #lsp-block-happy-hour .lsp-block-hh-product-new-price {
-  color: gray; }
-
-body.gray #lsp-block-happy-hour .lsp-block-hh-product-desc {
-  color: #000; }
-
-body.gray #lsp-block-item-detail .lsp-modifiers-container {
-  border-top-color: #999999; }
-
-body.gray #lsp-block-item-detail .lsp-detail-energy-cont {
-  border-top-color: #999999; }
-
-body.gray #lsp-block-item-detail .lsp-modifier-item {
-  background: transparent; }
-
-body.gray #lsp-block-item-detail .lsp-modifier-amont {
-  color: #cf3734; }
-
-body.gray #lsp-block-item-detail .lsp-modifier-summ-value {
-  color: #cf3734; }
-
-body.gray #lsp-block-item-detail .lsp-modifier-summ-type {
-  color: gray; }
-
-body.gray #lsp-block-item-detail .lsp-detail-price-total-valute,
-body.gray #lsp-block-item-detail .lsp-detail-price-total {
-  color: gray; }
-
-body.gray #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.gray #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.gray #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.gray #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: gray; }
-
-body.gray #lsp-block-item-detail .lsp-modifer-group-error {
-  color: gray; }
-
-body.gray #jstore-css .jstore-slider .lsp-slider-prev {
-  background: gray;
-  color: #ffffff; }
-
-body.gray #jstore-css .jstore-slider .lsp-slider-next {
-  background: gray;
-  color: #ffffff; }
-
-body.gray #lsp-block-content .jstore-order-status-item-content,
-body.gray .jstore-tag .jstore-order-status-item-content {
-  color: #000;
-  border-color: gray; }
-
-body.gray #lsp-block-content .jstore-order-status-active .jstore-order-status-item-content,
-body.gray .jstore-tag .jstore-order-status-active .jstore-order-status-item-content {
-  background: gray;
-  color: #ffffff; }
-
-body.gray #lsp-block-content .jstore-order-status-complete .jstore-order-status-item-content,
-body.gray .jstore-tag .jstore-order-status-complete .jstore-order-status-item-content {
-  border-color: #bfbfbf;
-  background: #cccccc;
-  color: #ffffff; }
-
-body.gray #lsp-block-items-popup .lsp-popup-price-total-valute,
-body.gray #lsp-block-items-popup .lsp-popup-price-total {
-  color: gray; }
-
-body.gray #lsp-header-cart::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #cccccc; }
-
-body.gray #lsp-header-cart::-webkit-scrollbar {
-  background-color: #cccccc; }
-
-body.gray #lsp-header-cart::-webkit-scrollbar-thumb {
-  background-color: gray; }
-
-body.gray #jstore-css .content-left-side .pick-color {
-  border: 1px solid #cccccc; }
-
-body.gray #jstore-css .content-left-side .arrow svg {
-  color: #ffffff !important; }
-
-body.gray #jstore-css .content-left-side .nav-menu {
-  border: 1px solid #cccccc; }
-
-body.gray #jstore-css .content-left-side .menu-more,
-body.gray #jstore-css .content-left-side .recommendation-more,
-body.gray #jstore-css .content-left-side .happy-hour-more,
-body.gray #jstore-css .content-left-side .lsp-block-gift-more,
-body.gray #jstore-css .content-left-side .cart-more,
-body.gray #jstore-css .content-left-side .cart-to-order {
-  color: #ffffff;
-  background-color: gray; }
-
-@media (max-width: 610px) {
-  body.gray #jstore-css .content-left-side .lsp-block-recommendation-wrapper h2.lsp-title {
-    border: 1px solid #cccccc; } }
-
-body.maroon .nav-menu a.all-menu:hover {
-  color: maroon; }
-
-body.maroon .jstore-tag {
-  color: #333333; }
-
-body.maroon .jstore-tag.lsp-button {
-  background: maroon;
-  color: #ffffff; }
-
-body.maroon #jstore-css .jstore-tag.lsp-button.jstore-out-of-stock {
-  background-color: maroon; }
-
-body.maroon .jstore-tag.lsp-button-plus,
-body.maroon .jstore-tag.lsp-button-minus,
-body.maroon .jstore-tag.lsp-button-cross {
-  background: maroon;
-  color: #ffffff; }
-
-body.maroon #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross,
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross {
-  color: #ffffff;
-  background: #cf3734; }
-
-body.maroon .jstore-tag.lsp-help-info {
-  color: #cf3734; }
-
-body.maroon .jstore-tag.lsp-button-plus:hover,
-body.maroon .jstore-tag.lsp-button-minus:hover,
-body.maroon .jstore-tag.lsp-button:hover {
-  background: #4d0000; }
-
-body.maroon .jstore-tag.lsp-button-plus.jstore-out-of-stock:hover {
-  background: #595959; }
-
-body.maroon #lsp-block-userinfo .lsp-block-userinfo-inner,
-body.maroon .jstore-tag.lsp-js-user-auth,
-body.maroon #lsp-block-gift .lsp-block-gift-inner,
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-inner,
-body.maroon #lsp-block-happy-hour .lsp-block-hh-inner,
-body.maroon #lsp-block-restinfo .lsp-block-restinfo-inner,
-body.maroon #jstore-css .lsp-block-restinfo-inner,
-body.maroon .jstore-tag.jstore-block-search .jstore-block-search-inner {
-  border-color: #ff4d4d; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-info-message {
-  background: transparent;
-  color: #333333; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-info-message .jstore-tag {
-  color: #333333; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-total,
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.maroon #lsp-block-order-form .lsp-block-order-sum-item {
-  color: maroon; }
-
-body.maroon .jstore-tag.lsp-block-cartpage .lsp-block-cart-item-discount,
-body.maroon .jstore-tag.lsp-block-cartpage .lsp-block-cart-bonus,
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item-discount,
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-bonus {
-  color: maroon; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item {
-  border-color: #999999; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-count {
-  color: #4d0000; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-type {
-  color: #4d0000; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item-amount-c-count {
-  color: #4d0000; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c {
-  background: maroon;
-  color: #ffffff; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag {
-  color: #ffffff; }
-
-body.maroon #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item.jstore-cart-item-stock-max .jstore-tag.lsp-help-info {
-  color: #595959; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-minus,
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-plus {
-  color: #ffffff; }
-
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-discount,
-body.maroon .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.maroon #lsp-block-order-form .lsp-block-order-sum-item {
-  color: maroon; }
-
-body.maroon #lsp-block-items-list .lsp-block-item,
-body.maroon #jstore-css .lsp-block-items-list .lsp-block-item {
-  border-color: #ff4d4d; }
-
-body.maroon .jstore-tag.lsp-block-item-tag.lsp-block-item-tag-status-active,
-body.maroon .jstore-tag.lsp-block-tags-filter-status-active .lsp-block-tags-filter-item-icon,
-body.maroon .jstore-tag.lsp-popup-inner .lsp-block-item-tag {
-  background-color: maroon; }
-
-body.maroon .jstore-tag.lsp-block-item-tag:hover,
-body.maroon .jstore-tag.lsp-block-tags-filter-item:hover .lsp-block-tags-filter-item-icon {
-  background-color: maroon; }
-
-body.maroon #lsp-block-items-list .lsp-block-item-price-value,
-body.maroon #jstore-css .lsp-block-items-list .lsp-block-item-price-value {
-  color: maroon; }
-
-body.maroon #lsp-block-items-list .lsp-block-item-measurement,
-body.maroon #jstore-css .lsp-block-items-list .lsp-block-item-measurement {
-  color: maroon; }
-
-body.maroon #lsp-block-popup .lsp-popup-placeholder {
-  background: #000;
-  background: rgba(89, 89, 89, 0.5); }
-
-body.maroon #lsp-block-popup .lsp-popup-cont {
-  background: #ffffff; }
-
-body.maroon #lsp-block-items-popup .lsp-modifiers-container {
-  border-color: #999999; }
-
-body.maroon #lsp-block-items-popup .lsp-popup-energy-cont {
-  border-color: #999999; }
-
-body.maroon #lsp-block-items-popup .lsp-modifier-summ-value {
-  color: maroon; }
-
-body.maroon #lsp-block-items-popup .lsp-modifier-summ-type {
-  color: maroon; }
-
-body.maroon .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button {
-  background: transparent;
-  color: #333333; }
-
-body.maroon .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button.lsp-button-red,
-body.maroon .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button:hover {
-  background: maroon;
-  color: #ffffff; }
-
-body.maroon #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.maroon #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.maroon #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.maroon #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: maroon; }
-
-body.maroon #lsp-block-items-popup .lsp-modifer-group-error {
-  color: #f00; }
-
-body.maroon #lsp-block-city-change .cityItem,
-body.maroon #lsp-block-terminal-change .cityItem {
-  border-color: transparent; }
-
-body.maroon #lsp-block-city-change .cityItem:hover,
-body.maroon #lsp-block-terminal-change .cityItem:hover {
-  color: #ffffff;
-  background-color: maroon; }
-
-body.maroon .jstore-tag.lsp-block-menu-tree li a.child-selected,
-body.maroon .jstore-tag.lsp-block-menu-tree li a.selected,
-body.maroon .jstore-tag.lsp-block-menu-tree li a:hover {
-  color: #4d0000; }
-
-body.maroon #lsp-block-content .lsp-block-orders-list-status,
-body.maroon #jstore-css .jstore-block .lsp-block-orders-list-status,
-body.maroon .jstore-tag .lsp-block-orders-list-status {
-  color: maroon; }
-
-body.maroon #lsp-block-content .lsp-block-orders-list td,
-body.maroon #jstore-css .jstore-block .lsp-block-orders-list td,
-body.maroon .jstore-tag .lsp-block-orders-list td {
-  border-color: #999999; }
-
-body.maroon #lsp-block-content .lsp-block-orders-list tr:last-child td,
-body.maroon #jstore-css .jstore-block .lsp-block-orders-list tr:last-child td,
-body.maroon .jstore-tag .lsp-block-orders-list tr:last-child td {
-  border-color: transparent; }
-
-body.maroon #lsp-block-content .lsp-form .label-row-field select,
-body.maroon #jstore-css .jstore-block .lsp-form .label-row-field select,
-body.maroon #lsp-block-content .lsp-form .label-row-field input[type=text],
-body.maroon #jstore-css .jstore-block .lsp-form .label-row-field input[type=text],
-body.maroon #lsp-block-content .lsp-form .label-row-field input[type=number],
-body.maroon #jstore-css .jstore-block .lsp-form .label-row-field input[type=number],
-body.maroon #lsp-block-content .lsp-form .label-row-field input[type=password],
-body.maroon #jstore-css .jstore-block .lsp-form .label-row-field input[type=password],
-body.maroon #lsp-block-content .lsp-form .label-row-field textarea,
-body.maroon #jstore-css .jstore-block .lsp-form .label-row-field textarea,
-body.maroon .jstore-tag .lsp-form .label-row-field select,
-body.maroon .jstore-tag .lsp-form .label-row-field input[type=text],
-body.maroon .jstore-tag .lsp-form .label-row-field input[type=number],
-body.maroon .jstore-tag .lsp-form .label-row-field input[type=password],
-body.maroon .jstore-tag .lsp-form .label-row-field textarea {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.maroon #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.maroon #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.maroon #lsp-block-content .lsp-form .lsp-form-error-mess,
-body.maroon #jstore-css .jstore-block .lsp-form .lsp-form-error-mess,
-body.maroon .jstore-tag .lsp-form .lsp-form-success-mess,
-body.maroon .jstore-tag .lsp-form .lsp-form-error-mess {
-  background: transparent;
-  color: #f00; }
-
-body.maroon #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.maroon #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.maroon .jstore-tag .lsp-form .lsp-form-success-mess {
-  color: maroon; }
-
-body.maroon #lsp-block-content .lsp-form .send-review-button,
-body.maroon #jstore-css .jstore-block .lsp-form .send-review-button,
-body.maroon .jstore-tag .lsp-form .send-review-button {
-  background-color: maroon;
-  color: #ffffff; }
-
-body.maroon #lsp-block-content .lsp-form .send-reg-button,
-body.maroon #jstore-css .jstore-block .lsp-form .send-reg-button,
-body.maroon .jstore-tag .lsp-form .send-reg-button {
-  border-color: maroon;
-  color: #ffffff; }
-
-body.maroon #lsp-block-kladr-autocomplete ul {
-  border-color: #595959;
-  background-color: #ffffff; }
-
-body.maroon #lsp-block-kladr-autocomplete li {
-  border-color: #ffffff #ffffff #999999; }
-
-body.maroon #lsp-block-kladr-autocomplete li.active {
-  background-color: #cccccc; }
-
-body.maroon #lsp-block-kladr-autocomplete ul {
-  background: #ffffff;
-  border-color: transparent #999999 #999999 #999999; }
-
-body.maroon #lsp-block-kladr-autocomplete li {
-  border-color: #999999; }
-
-body.maroon #lsp-block-kladr-autocomplete li:hover a,
-body.maroon #lsp-block-kladr-autocomplete li a:hover {
-  color: #333333; }
-
-body.maroon #lsp-block-kladr-autocomplete li .ac-s {
-  color: #ff4d4d; }
-
-body.maroon #lsp-block-kladr-autocomplete li .ac-s2 {
-  color: #333333; }
-
-body.maroon #lsp-block-kladr-autocomplete li .ac-st {
-  color: #595959; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker {
-  -webkit-box-shadow: 0 5px 15px -5px #595959;
-  box-shadow: 0 5px 15px -5px #595959;
-  background: #ffffff;
-  border-bottom-color: #595959;
-  border-left-color: #999999;
-  border-right-color: #999999;
-  border-top-color: #999999;
-  color: #333333; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker iframe {
-  background: transparent; }
-
-body.maroon #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.maroon #lsp-block-datetimepicker .xdsoft_noselect::selection {
-  background: transparent; }
-
-body.maroon #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
-  border-bottom-color: #cccccc; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div {
-  background: #ffffff;
-  border-top-color: #cccccc;
-  color: #595959; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label {
-  background-color: #ffffff; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
-  color: #ffffff;
-  background: #4d0000; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
-  background: #ff4d4d;
-  -webkit-box-shadow: maroon 0 1px 3px 0 inset;
-  box-shadow: maroon 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td,
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #ffffff;
-  border-color: #cccccc;
-  color: #595959; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #cccccc; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
-  color: #ff4d4d; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  background: #ff4d4d;
-  -webkit-box-shadow: maroon 0 1px 3px 0 inset;
-  box-shadow: maroon 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td:hover,
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  color: #ffffff !important;
-  background: #4d0000 !important; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  color: #595959; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright {
-  color: #999999 !important; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a {
-  color: #cccccc !important; }
-
-body.maroon #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a:hover {
-  color: #595959 !important; }
-
-body.maroon #lsp-block-datetimepicker .xdsoft_time_box {
-  border-color: #999999; }
-
-body.maroon #lsp-block-datetimepicker .xdsoft_scrollbar > .xdsoft_scroller {
-  background: #999999 !important; }
-
-body.maroon #lsp-block-gift .lsp-block-gift-item-name {
-  color: #000; }
-
-body.maroon #lsp-block-happy-hour .lsp-block-hh-product-old-price {
-  color: #595959; }
-
-body.maroon #lsp-block-happy-hour .lsp-block-hh-product-new-price {
-  color: maroon; }
-
-body.maroon #lsp-block-happy-hour .lsp-block-hh-product-desc {
-  color: #000; }
-
-body.maroon #lsp-block-item-detail .lsp-modifiers-container {
-  border-top-color: #999999; }
-
-body.maroon #lsp-block-item-detail .lsp-detail-energy-cont {
-  border-top-color: #999999; }
-
-body.maroon #lsp-block-item-detail .lsp-modifier-item {
-  background: transparent; }
-
-body.maroon #lsp-block-item-detail .lsp-modifier-amont {
-  color: #cf3734; }
-
-body.maroon #lsp-block-item-detail .lsp-modifier-summ-value {
-  color: #cf3734; }
-
-body.maroon #lsp-block-item-detail .lsp-modifier-summ-type {
-  color: maroon; }
-
-body.maroon #lsp-block-item-detail .lsp-detail-price-total-valute,
-body.maroon #lsp-block-item-detail .lsp-detail-price-total {
-  color: maroon; }
-
-body.maroon #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.maroon #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.maroon #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.maroon #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: maroon; }
-
-body.maroon #lsp-block-item-detail .lsp-modifer-group-error {
-  color: maroon; }
-
-body.maroon #jstore-css .jstore-slider .lsp-slider-prev {
-  background: maroon;
-  color: #ffffff; }
-
-body.maroon #jstore-css .jstore-slider .lsp-slider-next {
-  background: maroon;
-  color: #ffffff; }
-
-body.maroon #lsp-block-content .jstore-order-status-item-content,
-body.maroon .jstore-tag .jstore-order-status-item-content {
-  color: #000;
-  border-color: maroon; }
-
-body.maroon #lsp-block-content .jstore-order-status-active .jstore-order-status-item-content,
-body.maroon .jstore-tag .jstore-order-status-active .jstore-order-status-item-content {
-  background: maroon;
-  color: #ffffff; }
-
-body.maroon #lsp-block-content .jstore-order-status-complete .jstore-order-status-item-content,
-body.maroon .jstore-tag .jstore-order-status-complete .jstore-order-status-item-content {
-  border-color: red;
-  background: #ff4d4d;
-  color: #ffffff; }
-
-body.maroon #lsp-block-items-popup .lsp-popup-price-total-valute,
-body.maroon #lsp-block-items-popup .lsp-popup-price-total {
-  color: maroon; }
-
-body.maroon #lsp-header-cart::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #cccccc; }
-
-body.maroon #lsp-header-cart::-webkit-scrollbar {
-  background-color: #cccccc; }
-
-body.maroon #lsp-header-cart::-webkit-scrollbar-thumb {
-  background-color: maroon; }
-
-body.maroon #jstore-css .content-left-side .pick-color {
-  border: 1px solid #ff4d4d; }
-
-body.maroon #jstore-css .content-left-side .arrow svg {
-  color: #ffffff !important; }
-
-body.maroon #jstore-css .content-left-side .nav-menu {
-  border: 1px solid #ff4d4d; }
-
-body.maroon #jstore-css .content-left-side .menu-more,
-body.maroon #jstore-css .content-left-side .recommendation-more,
-body.maroon #jstore-css .content-left-side .happy-hour-more,
-body.maroon #jstore-css .content-left-side .lsp-block-gift-more,
-body.maroon #jstore-css .content-left-side .cart-more,
-body.maroon #jstore-css .content-left-side .cart-to-order {
-  color: #ffffff;
-  background-color: maroon; }
-
-@media (max-width: 610px) {
-  body.maroon #jstore-css .content-left-side .lsp-block-recommendation-wrapper h2.lsp-title {
-    border: 1px solid #ff4d4d; } }
-
-body.red .nav-menu a.all-menu:hover {
-  color: #f1281e; }
-
-body.red .jstore-tag {
-  color: #333333; }
-
-body.red .jstore-tag.lsp-button {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red #jstore-css .jstore-tag.lsp-button.jstore-out-of-stock {
-  background-color: #f1281e; }
-
-body.red .jstore-tag.lsp-button-plus,
-body.red .jstore-tag.lsp-button-minus,
-body.red .jstore-tag.lsp-button-cross {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.jstore-tag.lsp-button-cross {
-  color: #ffffff;
-  background: #cf3734; }
-
-body.red .jstore-tag.lsp-help-info {
-  color: #cf3734; }
-
-body.red .jstore-tag.lsp-button-plus:hover,
-body.red .jstore-tag.lsp-button-minus:hover,
-body.red .jstore-tag.lsp-button:hover {
-  background: #9e120a; }
-
-body.red .jstore-tag.lsp-button-plus.jstore-out-of-stock:hover {
-  background: #595959; }
-
-body.red #lsp-block-userinfo .lsp-block-userinfo-inner,
-body.red .jstore-tag.lsp-js-user-auth,
-body.red #lsp-block-gift .lsp-block-gift-inner,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-inner,
-body.red #lsp-block-happy-hour .lsp-block-hh-inner,
-body.red #lsp-block-restinfo .lsp-block-restinfo-inner,
-body.red #jstore-css .lsp-block-restinfo-inner,
-body.red .jstore-tag.jstore-block-search .jstore-block-search-inner {
-  border-color: #fbc8c5; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-info-message {
-  background: transparent;
-  color: #333333; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-info-message .jstore-tag {
-  color: #333333; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-total,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.red #lsp-block-order-form .lsp-block-order-sum-item {
-  color: #f1281e; }
-
-body.red .jstore-tag.lsp-block-cartpage .lsp-block-cart-item-discount,
-body.red .jstore-tag.lsp-block-cartpage .lsp-block-cart-bonus,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item-discount,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-bonus {
-  color: #f1281e; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item {
-  border-color: #999999; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-count {
-  color: #9e120a; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item-price-c-type {
-  color: #9e120a; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item-amount-c-count {
-  color: #9e120a; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag {
-  color: #ffffff; }
-
-body.red #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.jstore-cart-item-stock-max .jstore-tag.lsp-help-info {
-  color: #595959; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-minus,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag.lsp-button-plus {
-  color: #ffffff; }
-
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-discount,
-body.red .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
-body.red #lsp-block-order-form .lsp-block-order-sum-item {
-  color: #f1281e; }
-
-body.red #lsp-block-items-list .lsp-block-item,
-body.red #jstore-css .lsp-block-items-list .lsp-block-item {
-  border-color: #fbc8c5; }
-
-body.red .jstore-tag.lsp-block-item-tag.lsp-block-item-tag-status-active,
-body.red .jstore-tag.lsp-block-tags-filter-status-active .lsp-block-tags-filter-item-icon,
-body.red .jstore-tag.lsp-popup-inner .lsp-block-item-tag {
-  background-color: #f1281e; }
-
-body.red .jstore-tag.lsp-block-item-tag:hover,
-body.red .jstore-tag.lsp-block-tags-filter-item:hover .lsp-block-tags-filter-item-icon {
-  background-color: #f1281e; }
-
-body.red #lsp-block-items-list .lsp-block-item-price-value,
-body.red #jstore-css .lsp-block-items-list .lsp-block-item-price-value {
-  color: #f1281e; }
-
-body.red #lsp-block-items-list .lsp-block-item-measurement,
-body.red #jstore-css .lsp-block-items-list .lsp-block-item-measurement {
-  color: #f1281e; }
-
-body.red #lsp-block-popup .lsp-popup-placeholder {
-  background: #000;
-  background: rgba(89, 89, 89, 0.5); }
-
-body.red #lsp-block-popup .lsp-popup-cont {
-  background: #ffffff; }
-
-body.red #lsp-block-items-popup .lsp-modifiers-container {
-  border-color: #999999; }
-
-body.red #lsp-block-items-popup .lsp-popup-energy-cont {
-  border-color: #999999; }
-
-body.red #lsp-block-items-popup .lsp-modifier-summ-value {
-  color: #f1281e; }
-
-body.red #lsp-block-items-popup .lsp-modifier-summ-type {
-  color: #f1281e; }
-
-body.red .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button {
-  background: transparent;
-  color: #333333; }
-
-body.red .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button.lsp-button-red,
-body.red .jstore-tag.lsp-type-modifier-item .jstore-tag.lsp-button:hover {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.red #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.red #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.red #lsp-block-items-popup .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: #f1281e; }
-
-body.red #lsp-block-items-popup .lsp-modifer-group-error {
-  color: #f00; }
-
-body.red #lsp-block-city-change .cityItem,
-body.red #lsp-block-terminal-change .cityItem {
-  border-color: transparent; }
-
-body.red #lsp-block-city-change .cityItem:hover,
-body.red #lsp-block-terminal-change .cityItem:hover {
-  color: #ffffff;
-  background-color: #f1281e; }
-
-body.red .jstore-tag.lsp-block-menu-tree li a.child-selected,
-body.red .jstore-tag.lsp-block-menu-tree li a.selected,
-body.red .jstore-tag.lsp-block-menu-tree li a:hover {
-  color: #9e120a; }
-
-body.red #lsp-block-content .lsp-block-orders-list-status,
-body.red #jstore-css .jstore-block .lsp-block-orders-list-status,
-body.red .jstore-tag .lsp-block-orders-list-status {
-  color: #f1281e; }
-
-body.red #lsp-block-content .lsp-block-orders-list td,
-body.red #jstore-css .jstore-block .lsp-block-orders-list td,
-body.red .jstore-tag .lsp-block-orders-list td {
-  border-color: #999999; }
-
-body.red #lsp-block-content .lsp-block-orders-list tr:last-child td,
-body.red #jstore-css .jstore-block .lsp-block-orders-list tr:last-child td,
-body.red .jstore-tag .lsp-block-orders-list tr:last-child td {
-  border-color: transparent; }
-
-body.red #lsp-block-content .lsp-form .label-row-field select,
-body.red #jstore-css .jstore-block .lsp-form .label-row-field select,
-body.red #lsp-block-content .lsp-form .label-row-field input[type=text],
-body.red #jstore-css .jstore-block .lsp-form .label-row-field input[type=text],
-body.red #lsp-block-content .lsp-form .label-row-field input[type=number],
-body.red #jstore-css .jstore-block .lsp-form .label-row-field input[type=number],
-body.red #lsp-block-content .lsp-form .label-row-field input[type=password],
-body.red #jstore-css .jstore-block .lsp-form .label-row-field input[type=password],
-body.red #lsp-block-content .lsp-form .label-row-field textarea,
-body.red #jstore-css .jstore-block .lsp-form .label-row-field textarea,
-body.red .jstore-tag .lsp-form .label-row-field select,
-body.red .jstore-tag .lsp-form .label-row-field input[type=text],
-body.red .jstore-tag .lsp-form .label-row-field input[type=number],
-body.red .jstore-tag .lsp-form .label-row-field input[type=password],
-body.red .jstore-tag .lsp-form .label-row-field textarea {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.red #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.red #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.red #lsp-block-content .lsp-form .lsp-form-error-mess,
-body.red #jstore-css .jstore-block .lsp-form .lsp-form-error-mess,
-body.red .jstore-tag .lsp-form .lsp-form-success-mess,
-body.red .jstore-tag .lsp-form .lsp-form-error-mess {
-  background: transparent;
-  color: #f00; }
-
-body.red #lsp-block-content .lsp-form .lsp-form-success-mess,
-body.red #jstore-css .jstore-block .lsp-form .lsp-form-success-mess,
-body.red .jstore-tag .lsp-form .lsp-form-success-mess {
-  color: #f1281e; }
-
-body.red #lsp-block-content .lsp-form .send-review-button,
-body.red #jstore-css .jstore-block .lsp-form .send-review-button,
-body.red .jstore-tag .lsp-form .send-review-button {
-  background-color: #f1281e;
-  color: #ffffff; }
-
-body.red #lsp-block-content .lsp-form .send-reg-button,
-body.red #jstore-css .jstore-block .lsp-form .send-reg-button,
-body.red .jstore-tag .lsp-form .send-reg-button {
-  border-color: #f1281e;
-  color: #ffffff; }
-
-body.red #lsp-block-kladr-autocomplete ul {
-  border-color: #595959;
-  background-color: #ffffff; }
-
-body.red #lsp-block-kladr-autocomplete li {
-  border-color: #ffffff #ffffff #999999; }
-
-body.red #lsp-block-kladr-autocomplete li.active {
-  background-color: #cccccc; }
-
-body.red #lsp-block-kladr-autocomplete ul {
-  background: #ffffff;
-  border-color: transparent #999999 #999999 #999999; }
-
-body.red #lsp-block-kladr-autocomplete li {
-  border-color: #999999; }
-
-body.red #lsp-block-kladr-autocomplete li:hover a,
-body.red #lsp-block-kladr-autocomplete li a:hover {
-  color: #333333; }
-
-body.red #lsp-block-kladr-autocomplete li .ac-s {
-  color: #fbc8c5; }
-
-body.red #lsp-block-kladr-autocomplete li .ac-s2 {
-  color: #333333; }
-
-body.red #lsp-block-kladr-autocomplete li .ac-st {
-  color: #595959; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker {
-  -webkit-box-shadow: 0 5px 15px -5px #595959;
-  box-shadow: 0 5px 15px -5px #595959;
-  background: #ffffff;
-  border-bottom-color: #595959;
-  border-left-color: #999999;
-  border-right-color: #999999;
-  border-top-color: #999999;
-  color: #333333; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker iframe {
-  background: transparent; }
-
-body.red #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.red #lsp-block-datetimepicker .xdsoft_noselect::selection {
-  background: transparent; }
-
-body.red #lsp-block-datetimepicker .xdsoft_noselect::-moz-selection {
-  background: transparent; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
-  border-bottom-color: #cccccc; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div {
-  background: #ffffff;
-  border-top-color: #cccccc;
-  color: #595959; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label {
-  background-color: #ffffff; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select {
-  border-color: #999999;
-  background: #ffffff; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
-  color: #ffffff;
-  background: #9e120a; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
-  background: #fbc8c5;
-  -webkit-box-shadow: #f1281e 0 1px 3px 0 inset;
-  box-shadow: #f1281e 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td,
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #ffffff;
-  border-color: #cccccc;
-  color: #595959; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  background: #cccccc; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
-  color: #fbc8c5; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  background: #fbc8c5;
-  -webkit-box-shadow: #f1281e 0 1px 3px 0 inset;
-  box-shadow: #f1281e 0 1px 3px 0 inset;
-  color: #ffffff; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar td:hover,
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  color: #ffffff !important;
-  background: #9e120a !important; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_calendar th {
-  color: #595959; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright {
-  color: #999999 !important; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a {
-  color: #cccccc !important; }
-
-body.red #lsp-block-datetimepicker.xdsoft_datetimepicker .xdsoft_copyright a:hover {
-  color: #595959 !important; }
-
-body.red #lsp-block-datetimepicker .xdsoft_time_box {
-  border-color: #999999; }
-
-body.red #lsp-block-datetimepicker .xdsoft_scrollbar > .xdsoft_scroller {
-  background: #999999 !important; }
-
-body.red #lsp-block-gift .lsp-block-gift-item-name {
-  color: #000; }
-
-body.red #lsp-block-happy-hour .lsp-block-hh-product-old-price {
-  color: #595959; }
-
-body.red #lsp-block-happy-hour .lsp-block-hh-product-new-price {
-  color: #f1281e; }
-
-body.red #lsp-block-happy-hour .lsp-block-hh-product-desc {
-  color: #000; }
-
-body.red #lsp-block-item-detail .lsp-modifiers-container {
-  border-top-color: #999999; }
-
-body.red #lsp-block-item-detail .lsp-detail-energy-cont {
-  border-top-color: #999999; }
-
-body.red #lsp-block-item-detail .lsp-modifier-item {
-  background: transparent; }
-
-body.red #lsp-block-item-detail .lsp-modifier-amont {
-  color: #cf3734; }
-
-body.red #lsp-block-item-detail .lsp-modifier-summ-value {
-  color: #cf3734; }
-
-body.red #lsp-block-item-detail .lsp-modifier-summ-type {
-  color: #f1281e; }
-
-body.red #lsp-block-item-detail .lsp-detail-price-total-valute,
-body.red #lsp-block-item-detail .lsp-detail-price-total {
-  color: #f1281e; }
-
-body.red #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifier-group-title-text,
-body.red #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-delimeter,
-body.red #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-title,
-body.red #lsp-block-item-detail .lsp-modifier-group.lsp-modifier-group-error .lsp-modifer-group-minmax-value {
-  color: #f1281e; }
-
-body.red #lsp-block-item-detail .lsp-modifer-group-error {
-  color: #f1281e; }
-
-body.red #jstore-css .jstore-slider .lsp-slider-prev {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red #jstore-css .jstore-slider .lsp-slider-next {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red #lsp-block-content .jstore-order-status-item-content,
-body.red .jstore-tag .jstore-order-status-item-content {
-  color: #000;
-  border-color: #f1281e; }
-
-body.red #lsp-block-content .jstore-order-status-active .jstore-order-status-item-content,
-body.red .jstore-tag .jstore-order-status-active .jstore-order-status-item-content {
-  background: #f1281e;
-  color: #ffffff; }
-
-body.red #lsp-block-content .jstore-order-status-complete .jstore-order-status-item-content,
-body.red .jstore-tag .jstore-order-status-complete .jstore-order-status-item-content {
-  border-color: #f7847e;
-  background: #fbc8c5;
-  color: #ffffff; }
-
-body.red #lsp-block-items-popup .lsp-popup-price-total-valute,
-body.red #lsp-block-items-popup .lsp-popup-price-total {
-  color: #f1281e; }
-
-body.red #lsp-header-cart::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #cccccc; }
-
-body.red #lsp-header-cart::-webkit-scrollbar {
-  background-color: #cccccc; }
-
-body.red #lsp-header-cart::-webkit-scrollbar-thumb {
-  background-color: #f1281e; }
-
-body.red #jstore-css .content-left-side .pick-color {
-  border: 1px solid #fbc8c5; }
-
-body.red #jstore-css .content-left-side .arrow svg {
-  color: #ffffff !important; }
-
-body.red #jstore-css .content-left-side .nav-menu {
-  border: 1px solid #fbc8c5; }
-
-body.red #jstore-css .content-left-side .menu-more,
-body.red #jstore-css .content-left-side .recommendation-more,
-body.red #jstore-css .content-left-side .happy-hour-more,
-body.red #jstore-css .content-left-side .lsp-block-gift-more,
-body.red #jstore-css .content-left-side .cart-more,
-body.red #jstore-css .content-left-side .cart-to-order {
-  color: #ffffff;
-  background-color: #f1281e; }
-
-@media (max-width: 610px) {
-  body.red #jstore-css .content-left-side .lsp-block-recommendation-wrapper h2.lsp-title {
-    border: 1px solid #fbc8c5; } }
+#jstore-css .nav-menu a.all-menu:hover, #mobile_menu_list .nav-menu a.all-menu:hover {
+  color: #8e8e8e; }
