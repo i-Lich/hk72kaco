@@ -491,6 +491,10 @@ a {
   margin: 50px auto;
   max-width: 1280px;
   padding: 0 1rem; }
+  #jstore-css .lsp-block-items-list .jstore-tag.h1 {
+    margin: 8px 0 8px 0; }
+  #jstore-css .lsp-block-items-list:first-child h1 {
+    margin: 0 0 12px 0 !important; }
 
 @media (max-width: 1200px) {
   #jstore-css {
