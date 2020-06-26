@@ -45,6 +45,9 @@
       background: $whiteColor;
       padding: 1rem;
       margin: 0;
+      .lsp-js-modifiers-block{
+        //text-align: center;
+      }
     }
   }
 }
@@ -57,6 +60,17 @@
     }
   }
 }
+
+@media (max-width: 665px) {
+  .lsp-block-items-popup {
+    .lsp-popup-item-description-block {
+      .lsp-js-modifiers-block {
+        text-align: center;
+      }
+    }
+  }
+}
+
 @media (max-width: 610px) {
 
     #lsp-block-popup .lsp-popup-cont {

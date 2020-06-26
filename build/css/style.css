@@ -80,10 +80,10 @@
 
 .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c {
   background: #fecd06;
-  color: #ffffff; }
+  color: #333; }
 
 .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag {
-  color: #ffffff; }
+  color: #333; }
 
 #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
 .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
@@ -557,6 +557,10 @@ a {
   #lsp-block-popup #lsp-block-items-popup .lsp-popup-item-description-block {
     margin: 0 auto; } }
 
+@media (max-width: 665px) {
+  .lsp-block-items-popup .lsp-popup-item-description-block .lsp-js-modifiers-block {
+    text-align: center; } }
+
 @media (max-width: 610px) {
   #lsp-block-popup .lsp-popup-cont {
     overflow: auto;
@@ -863,6 +867,7 @@ a.all-menu {
   text-align: center; }
 
 #lsp-block-content .lsp-js-block-items {
+  margin: 0 -0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -890,7 +895,7 @@ a.all-menu {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: calc(100% / 3 - 3rem);
+  width: calc(100% / 3 - 1rem);
   margin: 0.5rem;
   padding: 1rem;
   border: 0;
@@ -909,8 +914,10 @@ a.all-menu {
   -ms-flex-order: 1;
   order: 1;
   -ms-flex-item-align: center;
-  align-self: center; }
+  align-self: center;
+  width: 100%; }
   #jstore-css .lsp-block-items-list .lsp-block-item-image .lsp-block-item-image-link {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -919,10 +926,15 @@ a.all-menu {
     justify-content: center; }
     #jstore-css .lsp-block-items-list .lsp-block-item-image .lsp-block-item-image-link img {
       -ms-flex-item-align: center;
-      align-self: center; }
+      align-self: center;
+      max-width: none;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover; }
 
 #jstore-css .lsp-block-items-list .lsp-block-item-name {
   height: auto;
+  margin: 5px 0;
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
   order: 2;
@@ -975,7 +987,7 @@ html.touchevents #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
-    width: calc(50% - 3rem); }
+    width: calc(50% - 1rem); }
   #lsp-block-popup .lsp-popup-cont {
     width: 764px;
     margin-left: -382px; }
@@ -1021,7 +1033,7 @@ html.touchevents #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
   #lsp-block-items-popup .lsp-modifier-name-c {
     width: 228px; }
   #jstore-css #lsp-block-content .lsp-js-block-items .lsp-block-item {
-    width: calc(50% - 3rem); }
+    width: calc(50% - 1rem); }
   #jstore-css {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

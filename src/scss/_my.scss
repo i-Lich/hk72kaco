@@ -341,6 +341,7 @@ a.all-menu{
     text-align: center;
   }
   .lsp-js-block-items{
+    margin: 0 -0.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
@@ -356,7 +357,7 @@ a.all-menu{
   float: none;
   height: auto;
   flex: 0 1 auto;
-  width: calc(100% / 3 - 3rem);
+  width: calc(100% / 3 - 1rem);
   margin: 0.5rem;
   padding: 1rem;
   border: 0;
@@ -374,17 +375,23 @@ a.all-menu{
 #jstore-css .lsp-block-items-list .lsp-block-item-image{
   order: 1;
   align-self: center;
+  width: 100%;
   .lsp-block-item-image-link{
+    width: 100%;
     display: flex;
     justify-content: center;
     img{
       align-self: center;
+      max-width: none;
+      width: 100%;
+      object-fit: cover;
     }
   }
 }
 
 #jstore-css .lsp-block-items-list .lsp-block-item-name{
   height: auto;
+  margin: 5px 0;
   order: 2;
   overflow: visible;
 }

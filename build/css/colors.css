@@ -80,10 +80,10 @@
 
 .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c {
   background: #fecd06;
-  color: #ffffff; }
+  color: #333; }
 
 .jstore-tag.lsp-block-cart .lsp-cart-item-modifier-c .jstore-tag {
-  color: #ffffff; }
+  color: #333; }
 
 #lsp-block-content .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
 .jstore-tag.lsp-block-cart .lsp-block-cart-item.lsp-block-cart-item-disabled .jstore-tag,
