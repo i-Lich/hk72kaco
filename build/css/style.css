@@ -443,9 +443,13 @@
 
 header#header .jstore-container a.logo {
   position: absolute;
-  left: 50%; }
+  left: calc(50% - 25px); }
   header#header .jstore-container a.logo img {
     height: 50px; }
+
+@media (max-width: 500px) {
+  header#header .jstore-container a.logo {
+    left: 1rem; } }
 
 html {
   -webkit-box-sizing: border-box;

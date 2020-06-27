@@ -2,10 +2,20 @@ header#header{
   .jstore-container{
     a.logo{
       position: absolute;
-      left: 50%;
+      left: calc(50% - 25px);
       img{
         height: 50px;
 
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  header#header{
+    .jstore-container{
+      a.logo{
+        left: 1rem;
       }
     }
   }
