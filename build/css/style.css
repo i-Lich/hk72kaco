@@ -55,7 +55,7 @@
   color: #333; }
 
 .jstore-tag.lsp-block-cart .lsp-info-message .jstore-tag {
-  color: #ffffff; }
+  color: #333; }
 
 .jstore-tag.lsp-block-cart .lsp-block-cart-total,
 .jstore-tag.lsp-block-cart .lsp-block-cart-sum,
@@ -442,7 +442,8 @@
   color: #8e8e8e; }
 
 header#header .jstore-container a.logo {
-  margin: 0 auto; }
+  position: absolute;
+  left: 50%; }
   header#header .jstore-container a.logo img {
     height: 50px; }
 
@@ -697,7 +698,8 @@ ul.jstore-header-fixed-dropdown {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin: 0 0 0 auto; }
   ul.jstore-header-fixed-dropdown .fixed-cart button {
     padding: 15px; }
 
@@ -751,6 +753,8 @@ ul.jstore-header-fixed-dropdown li span {
 
 .jstore-header-fixed-dropdown div.amount-goods #cart-fixed .lsp-info-message {
   font-size: 0; }
+  .jstore-header-fixed-dropdown div.amount-goods #cart-fixed .lsp-info-message .jstore-js-cart-total-count {
+    color: #ffffff; }
 
 .jstore-header-fixed-dropdown button {
   display: -webkit-box;
@@ -760,7 +764,8 @@ ul.jstore-header-fixed-dropdown li span {
   -ms-flex-align: center;
   align-items: center;
   min-height: 34px;
-  padding: 17px; }
+  padding: 17px;
+  height: 50px; }
 
 .jstore-header-fixed-dropdown .jstore-block-search,
 .jstore-header-fixed-dropdown #lsp-block-userinfo,

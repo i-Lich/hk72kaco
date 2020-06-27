@@ -153,9 +153,9 @@
 }
 
 ul.jstore-header-fixed-dropdown{
-  //margin-left: auto;
   display: flex;
   align-items: center;
+  margin: 0 0 0 auto;
   .fixed-cart{
     button{
       padding: 15px;
@@ -202,6 +202,7 @@ ul.jstore-header-fixed-dropdown li span{
   padding: 0;
 }
 .jstore-header-fixed-dropdown div.amount-goods #cart-fixed .lsp-info-message a.jstore-tag{
+
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 0;
@@ -215,6 +216,9 @@ ul.jstore-header-fixed-dropdown li span{
 }
 .jstore-header-fixed-dropdown div.amount-goods #cart-fixed .lsp-info-message{
   font-size: 0;
+  .jstore-js-cart-total-count{
+    color: $whiteColor;
+  }
 }
 
 .jstore-header-fixed-dropdown button{
@@ -222,6 +226,7 @@ ul.jstore-header-fixed-dropdown li span{
   align-items: center;
   min-height: 34px;
   padding: 17px;
+  height: 50px;
 }
 
 .jstore-header-fixed-dropdown .jstore-block-search,
