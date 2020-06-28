@@ -910,6 +910,7 @@ a.all-menu {
   margin: 0 7px 5px 0; }
 
 #lsp-block-content .lsp-block-content---preloadler {
+  margin: 15px auto 15px;
   font-size: 24px;
   padding: 3px 0 0 0;
   text-align: center; }
