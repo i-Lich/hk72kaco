@@ -993,7 +993,8 @@ a.all-menu {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  margin: 0 0 5px 0;
+  margin: auto 0 5px 0;
+  max-height: 75px;
   height: auto;
   -webkit-box-ordinal-group: 4;
   -ms-flex-order: 3;

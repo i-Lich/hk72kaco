@@ -412,7 +412,8 @@ a.all-menu{
 
 #jstore-css .lsp-block-items-list .lsp-block-item-description{
   flex-grow: 1;
-  margin: 0 0 5px 0;
+  margin: auto 0 5px 0;
+  max-height: 75px;
   height: auto;
   order:3;
   overflow: hidden;
