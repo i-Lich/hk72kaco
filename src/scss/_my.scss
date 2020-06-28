@@ -159,6 +159,7 @@ ul.jstore-header-fixed-dropdown{
   .fixed-cart{
     button{
       padding: 15px;
+      cursor: pointer;
     }
   }
 }
@@ -227,6 +228,7 @@ ul.jstore-header-fixed-dropdown li span{
   min-height: 34px;
   padding: 17px;
   height: 50px;
+  cursor: pointer;
 }
 
 .jstore-header-fixed-dropdown .jstore-block-search,
@@ -436,7 +438,7 @@ a.all-menu{
 
 #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
   padding: 8px 12px;
-  bottom: 11px;
+  bottom: 12px;
 }
 
 .arrow i{
