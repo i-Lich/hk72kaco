@@ -474,7 +474,7 @@ header#header .jstore-container .icon-cart-wrapper {
   display: flex;
   height: 48px; }
 
-@media (max-width: 500px) {
+@media (max-width: 580px) {
   header#header .jstore-container a.logo {
     left: 1rem; } }
 
