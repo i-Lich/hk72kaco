@@ -1197,7 +1197,7 @@ html.touchevents #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
     right: -148px; }
   .jstore-header-fixed-dropdown #lsp-block-userinfo {
     width: calc(100vw - 2rem);
-    right: -82px; } }
+    right: -80px; } }
 
 @media (max-width: 425px) {
   header .jstore-header-fixed-dropdown .fixed-cart #lsp-header-cart {
