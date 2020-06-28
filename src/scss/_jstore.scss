@@ -1,12 +1,35 @@
 header#header{
   .jstore-container{
     a.logo{
-      position: absolute;
+      position: relative;
       left: calc(50% - 25px);
       img{
-        height: 50px;
-
+        height: 66px;
       }
+    }
+    .icon-search,
+    .icon-signin,
+    .icon-cart-wrapper{
+      background: #cd2653;
+      border: none;
+      border-radius: 0;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: 0.0333em;
+      line-height: 1.25;
+      margin: 0;
+      opacity: 1;
+      padding: 1em;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .icon-cart-wrapper{
+      display: flex;
+      height: 48px;
     }
   }
 }
