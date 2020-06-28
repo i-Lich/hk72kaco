@@ -248,6 +248,10 @@
 
       }
     }
+    .menu-more{
+      top: -1px;
+      right: -1px;
+    }
   }
 }
 
@@ -276,11 +280,12 @@
     flex: 0 1 100%;
   }
   .jstore-header-fixed-dropdown .fixed-search .jstore-block-search{
-    width: calc(100vw - 19px);
-    right: -137px;
+    width: calc(100vw - 2rem);
+    right: -148px;
   }
   .jstore-header-fixed-dropdown #lsp-block-userinfo {
-    width: auto;
+    width: calc(100vw - 2rem);
+    right: -82px;
   }
   .dropdown-cart{
     //width: 220px;
@@ -298,8 +303,7 @@
     .jstore-header-fixed-dropdown{
       .fixed-cart{
         #lsp-header-cart{
-            width: 95vw;
-            right: -9px;
+          width: calc(100vw - 2rem);
         }
       }
     }

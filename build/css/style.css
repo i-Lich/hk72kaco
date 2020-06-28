@@ -1174,7 +1174,10 @@ html.touchevents #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
     #jstore-css .lsp-block-gift-more span,
     #jstore-css .cart-more span,
     #jstore-css .cart-to-order span {
-      padding: 0 0 0 0; } }
+      padding: 0 0 0 0; }
+  #jstore-css .menu-more {
+    top: -1px;
+    right: -1px; } }
 
 @media (max-width: 480px) {
   #jstore-css .content-left-side .lsp-block-cart-wrapper span.cart-more {
@@ -1190,12 +1193,12 @@ html.touchevents #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
     -ms-flex: 0 1 100%;
     flex: 0 1 100%; }
   .jstore-header-fixed-dropdown .fixed-search .jstore-block-search {
-    width: calc(100vw - 19px);
-    right: -137px; }
+    width: calc(100vw - 2rem);
+    right: -148px; }
   .jstore-header-fixed-dropdown #lsp-block-userinfo {
-    width: auto; } }
+    width: calc(100vw - 2rem);
+    right: -82px; } }
 
 @media (max-width: 425px) {
   header .jstore-header-fixed-dropdown .fixed-cart #lsp-header-cart {
-    width: 95vw;
-    right: -9px; } }
+    width: calc(100vw - 2rem); } }
