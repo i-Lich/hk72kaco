@@ -279,33 +279,24 @@
   #jstore-css #lsp-block-content .lsp-js-block-items .lsp-block-item{
     flex: 0 1 100%;
   }
-  .jstore-header-fixed-dropdown .fixed-search .jstore-block-search{
-    width: calc(100vw - 2rem);
-    right: -148px;
-  }
-  .jstore-header-fixed-dropdown #lsp-block-userinfo {
-    width: calc(100vw - 2rem);
-    right: -86px;
-  }
-  .dropdown-cart{
-    //width: 220px;
-  }
-  #lsp-block-popup .lsp-popup-cont {
-    //position: absolute;
-    //width: 100vw;
-    //min-height: 100vh;
-    //padding: 0;
-  }
+
 }
 
 @media (max-width: 425px) {
   header{
     .jstore-header-fixed-dropdown{
+      .fixed-search,
+      .fixed-signin,
       .fixed-cart{
-        #lsp-header-cart{
+        position: static;
+      }
+      .fixed-search .jstore-block-search,
+      .fixed-signin #lsp-block-userinfo,
+      .fixed-cart #lsp-header-cart{
           width: calc(100vw - 2rem);
+          left: 1rem;
+          top: 84px;
         }
       }
     }
   }
-}
