@@ -451,6 +451,7 @@ header#header .jstore-container .icon-search,
 header#header .jstore-container .icon-signin,
 header#header .jstore-container .icon-cart-wrapper {
   background: #cd2653;
+  min-width: 45px;
   border: none;
   border-radius: 0;
   color: #fff;
