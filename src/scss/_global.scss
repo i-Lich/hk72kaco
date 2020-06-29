@@ -58,6 +58,20 @@ a{
     }
   }
 
+  //сброс стилей wp
+#jstore-css, .jstore-header-fixed-dropdown{
+  input[type="button"]:focus,
+  input[type="button"]:hover,
+  input[type="reset"]:focus,
+  input[type="reset"]:hover,
+  input[type="submit"]:focus,
+  input[type="submit"]:hover {
+    text-decoration: none;
+  }
+}
+
+//media
+
 
 @media (max-width: 1200px) {
   .jstore-container {

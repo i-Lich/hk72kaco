@@ -10,6 +10,8 @@
 
 .jstore-tag.lsp-button.jstore-out-of-stock {
   background: #595959; }
+  .jstore-tag.lsp-button.jstore-out-of-stock:hover {
+    background: #595959; }
 
 .jstore-tag.lsp-button-plus,
 .jstore-tag.lsp-button-minus,
@@ -450,11 +452,11 @@ header#header .jstore-container a.logo {
 header#header .jstore-container .icon-search,
 header#header .jstore-container .icon-signin,
 header#header .jstore-container .icon-cart-wrapper {
-  background: #cd2653;
+  background: #fecd06;
   min-width: 45px;
-  border: none;
-  border-radius: 0;
-  color: #fff;
+  border: 1px solid #c6a005;
+  border-radius: 5px;
+  color: #333;
   cursor: pointer;
   display: block;
   font-size: 1.5rem;
@@ -463,10 +465,16 @@ header#header .jstore-container .icon-cart-wrapper {
   line-height: 1.25;
   margin: 0;
   opacity: 1;
+  -webkit-transition: all .3s;
+  transition: all .3s;
   padding: 1em;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase; }
+  header#header .jstore-container .icon-search:hover,
+  header#header .jstore-container .icon-signin:hover,
+  header#header .jstore-container .icon-cart-wrapper:hover {
+    background: #ededed; }
 
 header#header .jstore-container .icon-cart-wrapper {
   display: -webkit-box;
@@ -528,6 +536,19 @@ a {
 
 .lsp-block-items-list:first-child h1 {
   margin: 0 0 12px 0 !important; }
+
+#jstore-css input[type="button"]:focus,
+#jstore-css input[type="button"]:hover,
+#jstore-css input[type="reset"]:focus,
+#jstore-css input[type="reset"]:hover,
+#jstore-css input[type="submit"]:focus,
+#jstore-css input[type="submit"]:hover, .jstore-header-fixed-dropdown input[type="button"]:focus,
+.jstore-header-fixed-dropdown input[type="button"]:hover,
+.jstore-header-fixed-dropdown input[type="reset"]:focus,
+.jstore-header-fixed-dropdown input[type="reset"]:hover,
+.jstore-header-fixed-dropdown input[type="submit"]:focus,
+.jstore-header-fixed-dropdown input[type="submit"]:hover {
+  text-decoration: none; }
 
 @media (max-width: 1200px) {
   .jstore-container {
@@ -792,7 +813,7 @@ ul.jstore-header-fixed-dropdown li span {
 .jstore-header-fixed-dropdown div.amount-goods #cart-fixed .lsp-info-message {
   font-size: 0; }
   .jstore-header-fixed-dropdown div.amount-goods #cart-fixed .lsp-info-message .jstore-js-cart-total-count {
-    color: #ffffff; }
+    color: #333; }
 
 .jstore-header-fixed-dropdown button {
   display: -webkit-box;
@@ -1024,6 +1045,8 @@ a.all-menu {
 #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
   padding: 8px 12px;
   bottom: 8px; }
+  #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart.jstore-out-of-stock {
+    cursor: default; }
 
 .arrow i {
   font-size: 40px; }

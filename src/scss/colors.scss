@@ -12,6 +12,9 @@
 }
 .jstore-tag.lsp-button.jstore-out-of-stock {
   background: $moreGrayColor;
+  &:hover{
+    background: $moreGrayColor;
+  }
 }
 .jstore-tag.lsp-button-plus,
 .jstore-tag.lsp-button-minus,

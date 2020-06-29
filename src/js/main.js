@@ -102,17 +102,7 @@ $(function() {
 
     window.jStoreEvents = window.jStoreEvents ? window.jStoreEvents : [];
     jStoreEvents.push(['ready', null, function (data) {
-        // обработчкик для "В корзину"
-        jStore.App.cart.on('add', (item) => {
-            console.log(item);
-        });
-        let standartBodyClass =  document.body.className;
-        console.log(standartBodyClass);
-        $('#selectColor').change( function() {
-            let selectColor = $('#selectColor option:selected').text();
-            document.querySelector('body').className = standartBodyClass;
-            document.querySelector('body').classList.add(selectColor);
-        });
+
         //scroll к контенту при клике на авторизацию-вход на мобилках
         const buttonsSignInUp = document.querySelectorAll('.lsp-block-userinfo .lsp-block-userinfo-inner a');
         buttonsSignInUp.forEach(function(elem) {
