@@ -452,3 +452,39 @@
 #jstore-css .nav-menu a.all-menu:hover, #mobile_menu_list .nav-menu a.all-menu:hover{
   color: #8e8e8e;
 }
+
+//цвет бэкграунда для блоков
+
+#jstore-css{
+  .content-left-side{
+    .jstore-block-search,
+    .lsp-block-restinfo,
+    .lsp-block-terminalinfo,
+    .lsp-block-userinfo,
+    .lsp-block-cart,
+    .lsp-block-happy-hour,
+    .lsp-js-recommendation-items .lsp-block-item
+    {
+      background-color: $whiteColor;
+    }
+  }
+  .content-right-side{
+    #lsp-block-content{
+      .lsp-block-items{
+        .lsp-block-item{
+          background-color: $whiteColor;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 610px) {
+  #jstore-css {
+    .content-left-side {
+      .nav-menu {
+        background-color: $whiteColor;
+      }
+    }
+  }
+}
+// end //цвет бэкграунда для блоков

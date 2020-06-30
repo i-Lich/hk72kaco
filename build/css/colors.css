@@ -442,3 +442,19 @@
 
 #jstore-css .nav-menu a.all-menu:hover, #mobile_menu_list .nav-menu a.all-menu:hover {
   color: #8e8e8e; }
+
+#jstore-css .content-left-side .jstore-block-search,
+#jstore-css .content-left-side .lsp-block-restinfo,
+#jstore-css .content-left-side .lsp-block-terminalinfo,
+#jstore-css .content-left-side .lsp-block-userinfo,
+#jstore-css .content-left-side .lsp-block-cart,
+#jstore-css .content-left-side .lsp-block-happy-hour,
+#jstore-css .content-left-side .lsp-js-recommendation-items .lsp-block-item {
+  background-color: #ffffff; }
+
+#jstore-css .content-right-side #lsp-block-content .lsp-block-items .lsp-block-item {
+  background-color: #ffffff; }
+
+@media (max-width: 610px) {
+  #jstore-css .content-left-side .nav-menu {
+    background-color: #ffffff; } }
