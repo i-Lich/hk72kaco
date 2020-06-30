@@ -482,6 +482,10 @@ header#header .jstore-container .icon-cart-wrapper {
   display: flex;
   height: 50px; }
 
+body {
+  background: url("./../img/bg-main.jpg");
+  background-repeat: repeat; }
+
 @media (max-width: 580px) {
   header#header .jstore-container a.logo {
     left: 1rem; } }

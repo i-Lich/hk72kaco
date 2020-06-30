@@ -51,6 +51,11 @@ header#header{
   }
 }
 
+body{
+  background: url("./../img/bg-main.jpg");
+  background-repeat: repeat;
+}
+
 @media (max-width: 580px) {
   header#header{
     .jstore-container{
