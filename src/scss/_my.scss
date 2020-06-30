@@ -155,7 +155,7 @@
 ul.jstore-header-fixed-dropdown{
   display: flex;
   align-items: center;
-  margin: 0 0 0 auto;
+  margin: 0 0 0 0;
   .fixed-cart{
     button{
       padding: 15px;
@@ -167,6 +167,9 @@ ul.jstore-header-fixed-dropdown{
 ul.jstore-header-fixed-dropdown li{
   display: inline-block;
   margin-left: 18px;
+  &.fixed-contacts{
+    display: none;
+  }
 }
 
 ul.jstore-header-fixed-dropdown li i{
@@ -239,23 +242,34 @@ ul.jstore-header-fixed-dropdown li span{
 
 .fixed-search,
 .fixed-signin,
-.fixed-cart{
+.fixed-cart,
+.fixed-contacts{
   position: relative;
 }
 
 
 .jstore-header-fixed-dropdown .fixed-search .jstore-block-search,
 .jstore-header-fixed-dropdown #lsp-block-userinfo,
-.jstore-header-fixed-dropdown .dropdown-cart{
+.jstore-header-fixed-dropdown .dropdown-cart,
+.jstore-header-fixed-dropdown .fixed-contacts .kaco-header-fixed-contacts--dropdown{
   position: absolute;
-  width: 270px;
+  width: 280px;
   background-color: $whiteColor;
   height: auto;
   right: 0;
-  top: 67px;
+  top: 85px;
   z-index: 2;
   overflow-y: auto;
 }
+.jstore-header-fixed-dropdown .dropdown-cart{
+  width: 400px;
+}
+.jstore-header-fixed-dropdown .fixed-contacts .kaco-header-fixed-contacts--dropdown{
+  border: 1px solid $mainColor;
+  padding: 1rem 1rem 1rem 0;
+  display: none;
+}
+
 .jstore-header-fixed-dropdown .fixed-search .jstore-block-search .jstore-block-search-inner,
 #lsp-block-userinfo .lsp-block-userinfo-inner{
   margin: 0;

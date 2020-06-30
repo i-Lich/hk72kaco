@@ -33,6 +33,7 @@ $(function() {
         $('.jstore-block-search').removeClass('open');
         $('#lsp-block-userinfo').removeClass('open');
         $('.dropdown-cart').removeClass('open');
+        $('.kaco-header-fixed-contacts--dropdown').removeClass('open');
     }]);
 
     $(".show-menu-burger").click(function () {
@@ -40,6 +41,7 @@ $(function() {
         $('#lsp-block-userinfo').removeClass('open');
         $('.dropdown-cart').removeClass('open');
         $('.jstore-header-menu').toggleClass('open');
+        $('.kaco-header-fixed-contacts--dropdown').removeClass('open');
         $('.show-menu-burger').toggleClass('active');
     });
 
@@ -48,6 +50,7 @@ $(function() {
         $('.show-menu-burger').removeClass('active');
         $('#lsp-block-userinfo').removeClass('open');
         $('.dropdown-cart').removeClass('open');
+        $('.kaco-header-fixed-contacts--dropdown').removeClass('open');
         $('.jstore-block-search').toggleClass('open');
     });
 
@@ -56,7 +59,17 @@ $(function() {
         $('.show-menu-burger').removeClass('active');
         $('.jstore-block-search').removeClass('open');
         $('.dropdown-cart').removeClass('open');
+        $('.kaco-header-fixed-contacts--dropdown').removeClass('open');
         $('#lsp-block-userinfo').toggleClass('open');
+    });
+
+    $(".icon-contacts").click(function () {
+        $('.jstore-header-menu').removeClass('open');
+        $('.show-menu-burger').removeClass('active');
+        $('.jstore-block-search').removeClass('open');
+        $('.dropdown-cart').removeClass('open');
+        $('#lsp-block-userinfo').removeClass('open');
+        $('.kaco-header-fixed-contacts--dropdown').toggleClass('open');
     });
 
 /*    function cartHeight() {
@@ -90,6 +103,7 @@ $(function() {
         $('.show-menu-burger').removeClass('active');
         $('.jstore-block-search').removeClass('open');
         $('#lsp-block-userinfo').removeClass('open');
+        $('.kaco-header-fixed-contacts--dropdown').removeClass('open');
         $('#lsp-header-cart').toggleClass('open');
         cartHeight();
     });

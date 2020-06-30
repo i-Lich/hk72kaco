@@ -445,13 +445,36 @@
 
 header#header .jstore-container a.logo {
   position: relative;
-  left: calc(50% - 25px); }
+  left: calc(50% - 60px); }
   header#header .jstore-container a.logo img {
-    height: 66px; }
+    height: 120px; }
+
+header#header .jstore-container .kaco-header-fixed-contacts {
+  font-size: 14px;
+  margin: 0 0 0 auto;
+  font-weight: 600;
+  max-width: 345px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-height: 120px;
+  overflow: hidden; }
+  header#header .jstore-container .kaco-header-fixed-contacts a {
+    color: #ffffff; }
 
 header#header .jstore-container .icon-search,
 header#header .jstore-container .icon-signin,
-header#header .jstore-container .icon-cart-wrapper {
+header#header .jstore-container .icon-cart-wrapper,
+header#header .jstore-container .icon-contacts {
   background: #fecd06;
   min-width: 45px;
   border: 1px solid #c6a005;
@@ -473,7 +496,8 @@ header#header .jstore-container .icon-cart-wrapper {
   text-transform: uppercase; }
   header#header .jstore-container .icon-search:hover,
   header#header .jstore-container .icon-signin:hover,
-  header#header .jstore-container .icon-cart-wrapper:hover {
+  header#header .jstore-container .icon-cart-wrapper:hover,
+  header#header .jstore-container .icon-contacts:hover {
     background: #ededed; }
 
 header#header .jstore-container .icon-cart-wrapper {
@@ -485,10 +509,33 @@ header#header .jstore-container .icon-cart-wrapper {
 body {
   background: url("./../img/bg-main.jpg");
   background-repeat: repeat; }
+  body #jstore-css {
+    margin: 155px 0 20px 0; }
 
-@media (max-width: 580px) {
+@media (max-width: 725px) {
+  body #jstore-css {
+    margin: 135px 0 20px; }
   header#header .jstore-container a.logo {
-    left: 1rem; } }
+    left: 1rem; }
+    header#header .jstore-container a.logo img {
+      height: 100px; } }
+
+@media (max-width: 425px) {
+  body #jstore-css {
+    margin: 115px 0 20px; }
+  header#header .jstore-container a.logo img {
+    height: 80px; }
+  header#header .jstore-container .jstore-header-fixed-dropdown li {
+    margin-left: 10px; } }
+
+@media (max-width: 385px) {
+  header#header .jstore-container a.logo img {
+    display: none; }
+  header#header .jstore-container .jstore-header-fixed-dropdown .fixed-search .jstore-block-search,
+  header#header .jstore-container .jstore-header-fixed-dropdown .fixed-signin #lsp-block-userinfo,
+  header#header .jstore-container .jstore-header-fixed-dropdown .fixed-cart #lsp-header-cart,
+  header#header .jstore-container .jstore-header-fixed-dropdown .fixed-contacts .kaco-header-fixed-contacts--dropdown {
+    top: 68px; } }
 
 html {
   -webkit-box-sizing: border-box;
@@ -531,7 +578,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 100px auto 20px;
+  margin: 0 auto;
   max-width: 1280px;
   padding: 0 1rem; }
 
@@ -761,7 +808,7 @@ ul.jstore-header-fixed-dropdown {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 0 0 0 auto; }
+  margin: 0 0 0 0; }
   ul.jstore-header-fixed-dropdown .fixed-cart button {
     padding: 15px;
     cursor: pointer; }
@@ -769,6 +816,8 @@ ul.jstore-header-fixed-dropdown {
 ul.jstore-header-fixed-dropdown li {
   display: inline-block;
   margin-left: 18px; }
+  ul.jstore-header-fixed-dropdown li.fixed-contacts {
+    display: none; }
 
 ul.jstore-header-fixed-dropdown li i {
   color: #ffffff;
@@ -838,20 +887,30 @@ ul.jstore-header-fixed-dropdown li span {
 
 .fixed-search,
 .fixed-signin,
-.fixed-cart {
+.fixed-cart,
+.fixed-contacts {
   position: relative; }
 
 .jstore-header-fixed-dropdown .fixed-search .jstore-block-search,
 .jstore-header-fixed-dropdown #lsp-block-userinfo,
-.jstore-header-fixed-dropdown .dropdown-cart {
+.jstore-header-fixed-dropdown .dropdown-cart,
+.jstore-header-fixed-dropdown .fixed-contacts .kaco-header-fixed-contacts--dropdown {
   position: absolute;
-  width: 270px;
+  width: 280px;
   background-color: #ffffff;
   height: auto;
   right: 0;
-  top: 67px;
+  top: 85px;
   z-index: 2;
   overflow-y: auto; }
+
+.jstore-header-fixed-dropdown .dropdown-cart {
+  width: 400px; }
+
+.jstore-header-fixed-dropdown .fixed-contacts .kaco-header-fixed-contacts--dropdown {
+  border: 1px solid #fecd06;
+  padding: 1rem 1rem 1rem 0;
+  display: none; }
 
 .jstore-header-fixed-dropdown .fixed-search .jstore-block-search .jstore-block-search-inner,
 #lsp-block-userinfo .lsp-block-userinfo-inner {
@@ -1059,6 +1118,14 @@ html.touchevents #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
   display: block; }
 
 /* Large desktops and laptops */
+@media (max-width: 1279px) {
+  #header .jstore-container .kaco-header-fixed-contacts {
+    display: none !important; }
+  #header .jstore-container .jstore-header-fixed-dropdown {
+    margin: 0 0 0 auto; }
+    #header .jstore-container .jstore-header-fixed-dropdown .fixed-contacts {
+      display: block; } }
+
 @media (max-width: 1160px) {
   #jstore-css #lsp-block-content .lsp-js-block-items .lsp-block-item {
     width: calc(100% / 3 - 1rem); } }
@@ -1247,6 +1314,14 @@ html.touchevents #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
     top: -1px;
     right: -1px; } }
 
+@media (max-width: 515px) {
+  .jstore-header-fixed-dropdown .fixed-contacts {
+    position: static; }
+    .jstore-header-fixed-dropdown .fixed-contacts .kaco-header-fixed-contacts--dropdown {
+      top: 120px;
+      width: calc(100vw - 2rem);
+      left: 1rem; } }
+
 @media (max-width: 480px) {
   #jstore-css .content-left-side .lsp-block-cart-wrapper span.cart-more {
     right: 0; }
@@ -1268,7 +1343,8 @@ html.touchevents #jstore-css .lsp-block-items-list .lsp-block-item-add-to-cart {
     position: static; }
   header .jstore-header-fixed-dropdown .fixed-search .jstore-block-search,
   header .jstore-header-fixed-dropdown .fixed-signin #lsp-block-userinfo,
-  header .jstore-header-fixed-dropdown .fixed-cart #lsp-header-cart {
+  header .jstore-header-fixed-dropdown .fixed-cart #lsp-header-cart,
+  header .jstore-header-fixed-dropdown .fixed-contacts .kaco-header-fixed-contacts--dropdown {
     width: calc(100vw - 2rem);
     left: 1rem;
-    top: 84px; } }
+    top: 98px; } }
