@@ -257,7 +257,7 @@ ul.jstore-header-fixed-dropdown li span{
   background-color: $whiteColor;
   height: auto;
   right: 0;
-  top: 85px;
+  top: 94px;
   z-index: 2;
   overflow-y: auto;
 }
@@ -268,6 +268,14 @@ ul.jstore-header-fixed-dropdown li span{
   border: 1px solid $mainColor;
   padding: 1rem 1rem 1rem 0;
   display: none;
+  li {
+    a{
+      color: $textColor;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .jstore-header-fixed-dropdown .fixed-search .jstore-block-search .jstore-block-search-inner,

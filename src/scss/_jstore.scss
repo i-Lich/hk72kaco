@@ -2,16 +2,16 @@ header#header{
   .jstore-container{
     a.logo{
       position: relative;
-      left: calc(50% - 60px);
+      left: 24%;
       img{
         height: 120px;
       }
     }
     .kaco-header-fixed-contacts{
       font-size: 14px;
-      margin: 0 0 0 auto;
+      margin: 0 25px 0 auto;
       font-weight: 600;
-      max-width: 345px;
+      max-width: 450px;
       display: flex;
       flex-direction: column;
       align-content: center;
@@ -19,7 +19,10 @@ header#header{
       max-height: 120px;
       overflow: hidden;
       a{
-        color: $whiteColor;
+        color: $blackColor;
+        &:hover{
+          text-decoration: underline;
+        }
       }
     }
     .icon-search,
@@ -86,6 +89,12 @@ body{
         img{
           height: 100px;
         }
+      }
+      .jstore-header-fixed-dropdown #lsp-block-userinfo,
+      .jstore-header-fixed-dropdown .dropdown-cart,
+      .jstore-header-fixed-dropdown .fixed-contacts .kaco-header-fixed-contacts--dropdown,
+      .jstore-header-fixed-dropdown .fixed-search .jstore-block-search{
+        top: 85px;
       }
     }
   }

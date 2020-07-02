@@ -3,7 +3,9 @@
   &.search-page{
     //position: static;
   }
-  .lsp-block-items-popup{
+  .lsp-popup-cont.lsp-block-items-popup{
+    background: url("./../img/bg-main.jpg");
+    background-repeat: repeat;
     //box-shadow: inset 3px 0 0 0 $mainColor;
     .lsp-popup-item-image-c{
       //border-radius: 8px;

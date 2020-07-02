@@ -1,5 +1,14 @@
 /* Large desktops and laptops */
-@media (max-width: 1279px) {
+
+
+@media (max-width: 1160px) {
+  #jstore-css #lsp-block-content .lsp-js-block-items .lsp-block-item{
+    //flex: 0 1 auto;
+    width: calc(100% / 3 - 1rem);
+  }
+}
+
+@media (max-width: 1100px) {
   #header{
     .jstore-container{
       .kaco-header-fixed-contacts{
@@ -13,13 +22,6 @@
         }
       }
     }
-  }
-}
-
-@media (max-width: 1160px) {
-  #jstore-css #lsp-block-content .lsp-js-block-items .lsp-block-item{
-    //flex: 0 1 auto;
-    width: calc(100% / 3 - 1rem);
   }
 }
 
@@ -280,8 +282,7 @@
     position: static;
 
     .kaco-header-fixed-contacts--dropdown {
-
-      top: 120px;
+      top: 118px !important;
       width: calc(100vw - 2rem);
       left: 1rem;
     }
@@ -328,7 +329,7 @@
       .fixed-contacts .kaco-header-fixed-contacts--dropdown{
           width: calc(100vw - 2rem);
           left: 1rem;
-          top: 98px;
+          top: 98px !important;
         }
       }
     }
